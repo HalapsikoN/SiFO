@@ -20,13 +20,13 @@ Altera or its authorized distributors.  Please refer to the
 applicable agreement for further details.
 */
 
-VECTOR("D:/altera/quartus/lab3_2/result.vwf")
+VECTOR("d:/altera/quartus/lab3_2/result.vwf")
 {
 	ZOOM{
 		ZBEGIN = 0;
-		ZEND = 273000;
+		ZEND = 232400;
 		NUMERATOR = 1365;
-		DENOMINATOR = 273000;
+		DENOMINATOR = 232400;
 		TOP_INDEX = 0;
 	}
 	CLOCK{

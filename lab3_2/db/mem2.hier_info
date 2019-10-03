@@ -5,15 +5,21 @@ ad[2] <= adress[2].DB_MAX_OUTPUT_PORT_TYPE
 ad[3] <= adress[3].DB_MAX_OUTPUT_PORT_TYPE
 ad[4] <= adress[4].DB_MAX_OUTPUT_PORT_TYPE
 clk => lpm_counter_to_adress:inst6.clock
+clk => lpm_dff_to_ram_dealay:inst13.clock
 clk => lpm_rom_6:inst.inclock
 clk => lpm_rom_6:inst.outclock
 clk => buffer:inst4.clk
+clk => lpm_dff_to_ram_dealay:inst12.clock
+clk => lpm_dff_to_ram_dealay:inst5.clock
 clk => lpm_ram_dq_6:inst3.inclock
 clk => lpm_ram_dq_6:inst3.outclock
 read => lpm_counter_to_adress:inst6.aclr
-read => inst10.IN1
-read => buffer:inst4.write_to_buffer
-read => inst14.IN1
+read => lpm_dff_to_ram_dealay:inst13.data
+read => lpm_dff_to_ram_dealay:inst13.aclr
+read => lpm_dff_to_ram_dealay:inst12.data
+read => lpm_dff_to_ram_dealay:inst12.aclr
+read => lpm_dff_to_ram_dealay:inst5.data
+read => lpm_dff_to_ram_dealay:inst5.aclr
 adress1[0] => lpm_add_adress:inst11.datab[0]
 adress1[1] => lpm_add_adress:inst11.datab[1]
 adress1[2] => lpm_add_adress:inst11.datab[2]
@@ -236,6 +242,26 @@ result[4] <= result[4]~3.DB_MAX_OUTPUT_PORT_TYPE
 result[5] <= result[5]~2.DB_MAX_OUTPUT_PORT_TYPE
 result[6] <= result[6]~1.DB_MAX_OUTPUT_PORT_TYPE
 result[7] <= result[7]~0.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|result|lpm_dff_to_ram_dealay:inst13
+aclr => lpm_ff:lpm_ff_component.aclr
+clock => lpm_ff:lpm_ff_component.clock
+data => lpm_ff:lpm_ff_component.data[0]
+q <= lpm_ff:lpm_ff_component.q[0]
+
+
+|result|lpm_dff_to_ram_dealay:inst13|lpm_ff:lpm_ff_component
+data[0] => dffs[0].DATAIN
+clock => dffs[0].CLK
+enable => dffs[0].ENA
+aclr => dffs[0]~0.IN0
+aset => ~NO_FANOUT~
+aload => ~NO_FANOUT~
+sclr => ~NO_FANOUT~
+sset => ~NO_FANOUT~
+sload => ~NO_FANOUT~
+q[0] <= dffs[0].DB_MAX_OUTPUT_PORT_TYPE
 
 
 |result|lpm_rom_6:inst
@@ -1389,6 +1415,26 @@ q[1] <= counter_reg_bit1a[1].REGOUT
 q[2] <= counter_reg_bit1a[2].REGOUT
 
 
+|result|lpm_dff_to_ram_dealay:inst12
+aclr => lpm_ff:lpm_ff_component.aclr
+clock => lpm_ff:lpm_ff_component.clock
+data => lpm_ff:lpm_ff_component.data[0]
+q <= lpm_ff:lpm_ff_component.q[0]
+
+
+|result|lpm_dff_to_ram_dealay:inst12|lpm_ff:lpm_ff_component
+data[0] => dffs[0].DATAIN
+clock => dffs[0].CLK
+enable => dffs[0].ENA
+aclr => dffs[0]~0.IN0
+aset => ~NO_FANOUT~
+aload => ~NO_FANOUT~
+sclr => ~NO_FANOUT~
+sset => ~NO_FANOUT~
+sload => ~NO_FANOUT~
+q[0] <= dffs[0].DB_MAX_OUTPUT_PORT_TYPE
+
+
 |result|lpm_bustri_ram:inst9
 data[0] => lpm_bustri:lpm_bustri_component.data[0]
 data[1] => lpm_bustri:lpm_bustri_component.data[1]
@@ -1443,6 +1489,26 @@ result[4] <= result[4]~3.DB_MAX_OUTPUT_PORT_TYPE
 result[5] <= result[5]~2.DB_MAX_OUTPUT_PORT_TYPE
 result[6] <= result[6]~1.DB_MAX_OUTPUT_PORT_TYPE
 result[7] <= result[7]~0.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|result|lpm_dff_to_ram_dealay:inst5
+aclr => lpm_ff:lpm_ff_component.aclr
+clock => lpm_ff:lpm_ff_component.clock
+data => lpm_ff:lpm_ff_component.data[0]
+q <= lpm_ff:lpm_ff_component.q[0]
+
+
+|result|lpm_dff_to_ram_dealay:inst5|lpm_ff:lpm_ff_component
+data[0] => dffs[0].DATAIN
+clock => dffs[0].CLK
+enable => dffs[0].ENA
+aclr => dffs[0]~0.IN0
+aset => ~NO_FANOUT~
+aload => ~NO_FANOUT~
+sclr => ~NO_FANOUT~
+sset => ~NO_FANOUT~
+sload => ~NO_FANOUT~
+q[0] <= dffs[0].DB_MAX_OUTPUT_PORT_TYPE
 
 
 |result|lpm_ram_dq_6:inst3

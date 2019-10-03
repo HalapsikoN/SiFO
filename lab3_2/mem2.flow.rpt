@@ -1,5 +1,5 @@
 Flow report for mem2
-Thu Oct 03 02:06:07 2019
+Thu Oct 03 10:47:39 2019
 Quartus II Version 9.1 Build 222 10/21/2009 SJ Web Edition
 
 
@@ -38,16 +38,16 @@ applicable agreement for further details.
 +-------------------------------------------------------------------------+
 ; Flow Summary                                                            ;
 +-------------------------------+-----------------------------------------+
-; Flow Status                   ; Successful - Thu Oct 03 02:06:07 2019   ;
+; Flow Status                   ; Successful - Thu Oct 03 10:47:39 2019   ;
 ; Quartus II Version            ; 9.1 Build 222 10/21/2009 SJ Web Edition ;
 ; Revision Name                 ; mem2                                    ;
 ; Top-level Entity Name         ; result                                  ;
 ; Family                        ; Stratix II                              ;
 ; Met timing requirements       ; No                                      ;
 ; Logic utilization             ; < 1 %                                   ;
-;     Combinational ALUTs       ; 54 / 12,480 ( < 1 % )                   ;
-;     Dedicated logic registers ; 59 / 12,480 ( < 1 % )                   ;
-; Total registers               ; 59                                      ;
+;     Combinational ALUTs       ; 57 / 12,480 ( < 1 % )                   ;
+;     Dedicated logic registers ; 60 / 12,480 ( < 1 % )                   ;
+; Total registers               ; 60                                      ;
 ; Total pins                    ; 39 / 343 ( 11 % )                       ;
 ; Total virtual pins            ; 0                                       ;
 ; Total block memory bits       ; 512 / 419,328 ( < 1 % )                 ;
@@ -64,7 +64,7 @@ applicable agreement for further details.
 +-------------------+---------------------+
 ; Option            ; Setting             ;
 +-------------------+---------------------+
-; Start date & time ; 10/03/2019 02:05:58 ;
+; Start date & time ; 10/03/2019 10:47:30 ;
 ; Main task         ; Compilation         ;
 ; Revision Name     ; mem2                ;
 +-------------------+---------------------+
@@ -75,9 +75,11 @@ applicable agreement for further details.
 +------------------------------------+--------------------------------+---------------+-------------+----------------+
 ; Assignment Name                    ; Value                          ; Default Value ; Entity Name ; Section Id     ;
 +------------------------------------+--------------------------------+---------------+-------------+----------------+
-; COMPILER_SIGNATURE_ID              ; 93328261012165.157005755710272 ; --            ; --          ; --             ;
+; COMPILER_SIGNATURE_ID              ; 93328261012165.157008885010652 ; --            ; --          ; --             ;
 ; IP_TOOL_NAME                       ; LPM_COUNTER                    ; --            ; --          ; --             ;
 ; IP_TOOL_NAME                       ; LPM_ADD_SUB                    ; --            ; --          ; --             ;
+; IP_TOOL_NAME                       ; LPM_FF                         ; --            ; --          ; --             ;
+; IP_TOOL_VERSION                    ; 9.1                            ; --            ; --          ; --             ;
 ; IP_TOOL_VERSION                    ; 9.1                            ; --            ; --          ; --             ;
 ; IP_TOOL_VERSION                    ; 9.1                            ; --            ; --          ; --             ;
 ; MISC_FILE                          ; lpm_counter_to_adress.tdf      ; --            ; --          ; --             ;
@@ -86,6 +88,9 @@ applicable agreement for further details.
 ; MISC_FILE                          ; lpm_add_adress.tdf             ; --            ; --          ; --             ;
 ; MISC_FILE                          ; lpm_add_adress.bsf             ; --            ; --          ; --             ;
 ; MISC_FILE                          ; lpm_add_adress.inc             ; --            ; --          ; --             ;
+; MISC_FILE                          ; lpm_dff_to_ram_dealay.tdf      ; --            ; --          ; --             ;
+; MISC_FILE                          ; lpm_dff_to_ram_dealay.bsf      ; --            ; --          ; --             ;
+; MISC_FILE                          ; lpm_dff_to_ram_dealay.inc      ; --            ; --          ; --             ;
 ; PARTITION_COLOR                    ; 16764057                       ; --            ; result      ; Top            ;
 ; PARTITION_NETLIST_TYPE             ; SOURCE                         ; --            ; result      ; Top            ;
 ; TOP_LEVEL_ENTITY                   ; result                         ; mem2          ; --          ; --             ;
@@ -98,11 +103,11 @@ applicable agreement for further details.
 +-------------------------+--------------+-------------------------+---------------------+------------------------------------+
 ; Module Name             ; Elapsed Time ; Average Processors Used ; Peak Virtual Memory ; Total CPU Time (on all processors) ;
 +-------------------------+--------------+-------------------------+---------------------+------------------------------------+
-; Analysis & Synthesis    ; 00:00:02     ; 1.0                     ; 244 MB              ; 00:00:02                           ;
-; Fitter                  ; 00:00:03     ; 1.0                     ; 292 MB              ; 00:00:04                           ;
-; Assembler               ; 00:00:01     ; 1.0                     ; 251 MB              ; 00:00:01                           ;
-; Classic Timing Analyzer ; 00:00:01     ; 1.0                     ; 181 MB              ; 00:00:00                           ;
-; Total                   ; 00:00:07     ; --                      ; --                  ; 00:00:07                           ;
+; Analysis & Synthesis    ; 00:00:01     ; 1.0                     ; 243 MB              ; 00:00:02                           ;
+; Fitter                  ; 00:00:02     ; 1.0                     ; 292 MB              ; 00:00:03                           ;
+; Assembler               ; 00:00:01     ; 1.0                     ; 250 MB              ; 00:00:01                           ;
+; Classic Timing Analyzer ; 00:00:00     ; 1.0                     ; 181 MB              ; 00:00:00                           ;
+; Total                   ; 00:00:04     ; --                      ; --                  ; 00:00:06                           ;
 +-------------------------+--------------+-------------------------+---------------------+------------------------------------+
 
 
