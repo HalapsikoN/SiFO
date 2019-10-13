@@ -24,9 +24,9 @@ VECTOR("d:/altera/quartus/lab3_2/result.vwf")
 {
 	ZOOM{
 		ZBEGIN = 0;
-		ZEND = 232400;
-		NUMERATOR = 1365;
-		DENOMINATOR = 232400;
+		ZEND = 500000;
+		NUMERATOR = 1162;
+		DENOMINATOR = 791344;
 		TOP_INDEX = 0;
 	}
 	CLOCK{
@@ -46,7 +46,7 @@ VECTOR("d:/altera/quartus/lab3_2/result.vwf")
 		FLAG = N;
 	}
 	LINE{
-		SIGNAL = "adress1";
+		SIGNAL = "adress";
 		INDEX = 1;
 		FORMAT = T;
 		SCALE = 1;
@@ -54,7 +54,7 @@ VECTOR("d:/altera/quartus/lab3_2/result.vwf")
 		FLAG = N;
 	}
 	LINE{
-		SIGNAL = "adress1[4]";
+		SIGNAL = "adress[4]";
 		INDEX = 2;
 		FORMAT = E;
 		SCALE = 1;
@@ -62,7 +62,7 @@ VECTOR("d:/altera/quartus/lab3_2/result.vwf")
 		FLAG = N;
 	}
 	LINE{
-		SIGNAL = "adress1[3]";
+		SIGNAL = "adress[3]";
 		INDEX = 3;
 		FORMAT = E;
 		SCALE = 1;
@@ -70,7 +70,7 @@ VECTOR("d:/altera/quartus/lab3_2/result.vwf")
 		FLAG = N;
 	}
 	LINE{
-		SIGNAL = "adress1[2]";
+		SIGNAL = "adress[2]";
 		INDEX = 4;
 		FORMAT = E;
 		SCALE = 1;
@@ -78,7 +78,7 @@ VECTOR("d:/altera/quartus/lab3_2/result.vwf")
 		FLAG = N;
 	}
 	LINE{
-		SIGNAL = "adress1[1]";
+		SIGNAL = "adress[1]";
 		INDEX = 5;
 		FORMAT = E;
 		SCALE = 1;
@@ -86,7 +86,7 @@ VECTOR("d:/altera/quartus/lab3_2/result.vwf")
 		FLAG = N;
 	}
 	LINE{
-		SIGNAL = "adress1[0]";
+		SIGNAL = "adress[0]";
 		INDEX = 6;
 		FORMAT = E;
 		SCALE = 1;
@@ -102,7 +102,7 @@ VECTOR("d:/altera/quartus/lab3_2/result.vwf")
 		FLAG = N;
 	}
 	LINE{
-		SIGNAL = "read";
+		SIGNAL = "start";
 		INDEX = 8;
 		FORMAT = E;
 		SCALE = 1;
@@ -110,136 +110,8 @@ VECTOR("d:/altera/quartus/lab3_2/result.vwf")
 		FLAG = N;
 	}
 	LINE{
-		SIGNAL = "write";
-		INDEX = 9;
-		FORMAT = E;
-		SCALE = 1;
-		VISIBLE = Y;
-		FLAG = N;
-	}
-	LINE{
-		SIGNAL = "ad";
-		INDEX = 10;
-		FORMAT = T;
-		SCALE = 1;
-		VISIBLE = Y;
-		FLAG = N;
-	}
-	LINE{
-		SIGNAL = "ad[4]";
-		INDEX = 11;
-		FORMAT = E;
-		SCALE = 1;
-		VISIBLE = Y;
-		FLAG = N;
-	}
-	LINE{
-		SIGNAL = "ad[3]";
-		INDEX = 12;
-		FORMAT = E;
-		SCALE = 1;
-		VISIBLE = Y;
-		FLAG = N;
-	}
-	LINE{
-		SIGNAL = "ad[2]";
-		INDEX = 13;
-		FORMAT = E;
-		SCALE = 1;
-		VISIBLE = Y;
-		FLAG = N;
-	}
-	LINE{
-		SIGNAL = "ad[1]";
-		INDEX = 14;
-		FORMAT = E;
-		SCALE = 1;
-		VISIBLE = Y;
-		FLAG = N;
-	}
-	LINE{
-		SIGNAL = "ad[0]";
-		INDEX = 15;
-		FORMAT = E;
-		SCALE = 1;
-		VISIBLE = Y;
-		FLAG = N;
-	}
-	LINE{
-		SIGNAL = "o1";
-		INDEX = 16;
-		FORMAT = T;
-		SCALE = 1;
-		VISIBLE = Y;
-		FLAG = N;
-	}
-	LINE{
-		SIGNAL = "o1[7]";
-		INDEX = 17;
-		FORMAT = E;
-		SCALE = 1;
-		VISIBLE = Y;
-		FLAG = N;
-	}
-	LINE{
-		SIGNAL = "o1[6]";
-		INDEX = 18;
-		FORMAT = E;
-		SCALE = 1;
-		VISIBLE = Y;
-		FLAG = N;
-	}
-	LINE{
-		SIGNAL = "o1[5]";
-		INDEX = 19;
-		FORMAT = E;
-		SCALE = 1;
-		VISIBLE = Y;
-		FLAG = N;
-	}
-	LINE{
-		SIGNAL = "o1[4]";
-		INDEX = 20;
-		FORMAT = E;
-		SCALE = 1;
-		VISIBLE = Y;
-		FLAG = N;
-	}
-	LINE{
-		SIGNAL = "o1[3]";
-		INDEX = 21;
-		FORMAT = E;
-		SCALE = 1;
-		VISIBLE = Y;
-		FLAG = N;
-	}
-	LINE{
-		SIGNAL = "o1[2]";
-		INDEX = 22;
-		FORMAT = E;
-		SCALE = 1;
-		VISIBLE = Y;
-		FLAG = N;
-	}
-	LINE{
-		SIGNAL = "o1[1]";
-		INDEX = 23;
-		FORMAT = E;
-		SCALE = 1;
-		VISIBLE = Y;
-		FLAG = N;
-	}
-	LINE{
-		SIGNAL = "o1[0]";
-		INDEX = 24;
-		FORMAT = E;
-		SCALE = 1;
-		VISIBLE = Y;
-		FLAG = N;
-	}
-	LINE{
 		SIGNAL = "DATA";
-		INDEX = 25;
+		INDEX = 9;
 		FORMAT = T;
 		SCALE = 1;
 		VISIBLE = Y;
@@ -247,7 +119,7 @@ VECTOR("d:/altera/quartus/lab3_2/result.vwf")
 	}
 	LINE{
 		SIGNAL = "DATA[7]";
-		INDEX = 26;
+		INDEX = 10;
 		FORMAT = E;
 		SCALE = 1;
 		VISIBLE = Y;
@@ -255,7 +127,7 @@ VECTOR("d:/altera/quartus/lab3_2/result.vwf")
 	}
 	LINE{
 		SIGNAL = "DATA[6]";
-		INDEX = 27;
+		INDEX = 11;
 		FORMAT = E;
 		SCALE = 1;
 		VISIBLE = Y;
@@ -263,7 +135,7 @@ VECTOR("d:/altera/quartus/lab3_2/result.vwf")
 	}
 	LINE{
 		SIGNAL = "DATA[5]";
-		INDEX = 28;
+		INDEX = 12;
 		FORMAT = E;
 		SCALE = 1;
 		VISIBLE = Y;
@@ -271,7 +143,7 @@ VECTOR("d:/altera/quartus/lab3_2/result.vwf")
 	}
 	LINE{
 		SIGNAL = "DATA[4]";
-		INDEX = 29;
+		INDEX = 13;
 		FORMAT = E;
 		SCALE = 1;
 		VISIBLE = Y;
@@ -279,7 +151,7 @@ VECTOR("d:/altera/quartus/lab3_2/result.vwf")
 	}
 	LINE{
 		SIGNAL = "DATA[3]";
-		INDEX = 30;
+		INDEX = 14;
 		FORMAT = E;
 		SCALE = 1;
 		VISIBLE = Y;
@@ -287,7 +159,7 @@ VECTOR("d:/altera/quartus/lab3_2/result.vwf")
 	}
 	LINE{
 		SIGNAL = "DATA[2]";
-		INDEX = 31;
+		INDEX = 15;
 		FORMAT = E;
 		SCALE = 1;
 		VISIBLE = Y;
@@ -295,7 +167,7 @@ VECTOR("d:/altera/quartus/lab3_2/result.vwf")
 	}
 	LINE{
 		SIGNAL = "DATA[1]";
-		INDEX = 32;
+		INDEX = 16;
 		FORMAT = E;
 		SCALE = 1;
 		VISIBLE = Y;
@@ -303,87 +175,58 @@ VECTOR("d:/altera/quartus/lab3_2/result.vwf")
 	}
 	LINE{
 		SIGNAL = "DATA[0]";
-		INDEX = 33;
+		INDEX = 17;
+		FORMAT = E;
+		SCALE = 1;
+		VISIBLE = Y;
+		FLAG = N;
+	}
+}
+
+VECTOR("D:/altera/quartus/lab3_2/start_pin.vwf")
+{
+	ZOOM{
+		ZBEGIN = 0;
+		ZEND = 1000000;
+		NUMERATOR = 1367;
+		DENOMINATOR = 1000000;
+		TOP_INDEX = 0;
+	}
+	CLOCK{
+		PERIOD = 20000;
+		OFFSET = 0;
+		DUTY_CYCLE = 50;
+	}
+	RANDOM_VALUE{
+		INTERVAL_TYPE = HALF_GRID;
+	}
+	LINE{
+		SIGNAL = "clk";
+		INDEX = 0;
 		FORMAT = E;
 		SCALE = 1;
 		VISIBLE = Y;
 		FLAG = N;
 	}
 	LINE{
-		SIGNAL = "DATA_END";
-		INDEX = 34;
-		FORMAT = T;
-		SCALE = 1;
-		VISIBLE = Y;
-		FLAG = N;
-	}
-	LINE{
-		SIGNAL = "DATA_END[7]";
-		INDEX = 35;
+		SIGNAL = "start";
+		INDEX = 1;
 		FORMAT = E;
 		SCALE = 1;
 		VISIBLE = Y;
 		FLAG = N;
 	}
 	LINE{
-		SIGNAL = "DATA_END[6]";
-		INDEX = 36;
+		SIGNAL = "write";
+		INDEX = 2;
 		FORMAT = E;
 		SCALE = 1;
 		VISIBLE = Y;
 		FLAG = N;
 	}
 	LINE{
-		SIGNAL = "DATA_END[5]";
-		INDEX = 37;
-		FORMAT = E;
-		SCALE = 1;
-		VISIBLE = Y;
-		FLAG = N;
-	}
-	LINE{
-		SIGNAL = "DATA_END[4]";
-		INDEX = 38;
-		FORMAT = E;
-		SCALE = 1;
-		VISIBLE = Y;
-		FLAG = N;
-	}
-	LINE{
-		SIGNAL = "DATA_END[3]";
-		INDEX = 39;
-		FORMAT = E;
-		SCALE = 1;
-		VISIBLE = Y;
-		FLAG = N;
-	}
-	LINE{
-		SIGNAL = "DATA_END[2]";
-		INDEX = 40;
-		FORMAT = E;
-		SCALE = 1;
-		VISIBLE = Y;
-		FLAG = N;
-	}
-	LINE{
-		SIGNAL = "DATA_END[1]";
-		INDEX = 41;
-		FORMAT = E;
-		SCALE = 1;
-		VISIBLE = Y;
-		FLAG = N;
-	}
-	LINE{
-		SIGNAL = "DATA_END[0]";
-		INDEX = 42;
-		FORMAT = E;
-		SCALE = 1;
-		VISIBLE = Y;
-		FLAG = N;
-	}
-	LINE{
-		SIGNAL = "wren";
-		INDEX = 43;
+		SIGNAL = "read";
+		INDEX = 3;
 		FORMAT = E;
 		SCALE = 1;
 		VISIBLE = Y;

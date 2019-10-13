@@ -1,0 +1,231 @@
+GED
+
+	Undo Commands
+	     1.	Properties
+	     2.	Properties
+	     3.	Properties
+	     4.	Properties
+	     5.	Resize
+	     6.	Resize
+	     7.	Delete
+	     8.	Delete
+	     9.	Move
+	    10.	Move
+	    11.	Update Symbol or Block
+	    12.	Update Symbol or Block
+	    13.	Update Symbol or Block
+	    14.	Update Symbol or Block
+	    15.	Update Symbol or Block
+	    16.	Update Symbol or Block
+	    17.	Properties
+	    18.	Properties
+	    19.	Properties
+	    20.	Properties
+	    21.	Properties
+	    22.	Move
+	    23.	Paste
+	    24.	Properties
+	    25.	Delete
+	    26.	Delete
+	    27.	Properties
+	    28.	Properties
+	    29.	Properties
+	    30.	Move
+	    31.	Paste
+	    32.	Properties
+	    33.	Properties
+	    34.	Properties
+	    35.	Properties
+	    36.	Properties
+	    37.	Properties
+	    38.	Properties
+	    39.	Properties
+	    40.	Properties
+	    41.	Properties
+	    42.	Properties
+	    43.	Properties
+	    44.	Properties
+	    45.	Properties
+	    46.	Properties
+	    47.	Properties
+	    48.	Properties
+	    49.	Properties
+	    50.	Properties
+	    51.	Properties
+	    52.	Properties
+	    53.	Properties
+	    54.	Properties
+	    55.	Properties
+	    56.	Properties
+	    57.	Properties
+	    58.	Properties
+	    59.	Properties
+	    60.	Properties
+	    61.	Properties
+	    62.	Properties
+	    63.	Move
+	    64.	Paste
+	    65.	Move
+	    66.	Paste
+	    67.	Properties
+	    68.	Properties
+	    69.	Move
+	    70.	Paste
+	    71.	Resize
+	    72.	Properties
+	    73.	Properties
+	    74.	Properties
+	    75.	Properties
+	    76.	Move
+	    77.	Paste
+	    78.	Insert Bus
+	    79.	Move
+	    80.	Delete
+	    81.	Properties
+	    82.	Properties
+	    83.	Insert Node
+	    84.	Properties
+	    85.	Move
+	    86.	Paste
+	    87.	Properties
+	    88.	Properties
+	    89.	Properties
+	    90.	Properties
+	    91.	Insert Node
+	    92.	Insert Node
+	    93.	Move
+	    94.	Paste
+	    95.	Insert Symbol
+	    96.	Properties
+	    97.	Properties
+	    98.	Properties
+	    99.	Properties
+	   100.	Delete
+
+
+RPW
+
+	Undo Commands
+	     1.	||Compilation Report||Flow Summary
+	     2.	||Compilation Report||Flow Elapsed Time
+	     3.	||Compilation Report||Flow OS Summary
+	     4.	||Compilation Report||Flow Summary
+
+
+GED
+
+	Undo Commands
+	     1.	Update Symbol or Block
+	     2.	Properties
+	     3.	Properties
+	     4.	Move
+	     5.	Paste
+
+
+WED
+
+	Undo Commands
+	     1.	Change Time Bars
+	     2.	Change Time Bars
+	     3.	Change Time Bars
+	     4.	Change Time Bars
+	     5.	Change Time Bars
+	     6.	Change Time Bars
+	     7.	Change Time Bars
+	     8.	Change Time Bars
+	     9.	Change Time Bars
+	    10.	Change Time Bars
+	    11.	Change Time Bars
+	    12.	Change Time Bars
+	    13.	Change Time Bars
+	    14.	Change Time Bars
+	    15.	Change Time Bars
+	    16.	Change Time Bars
+	    17.	Change Time Bars
+	    18.	Change Time Bars
+	    19.	Change Time Bars
+	    20.	Change Time Bars
+	    21.	Change Time Bars
+	    22.	Drop Node
+			 *** 
+
+
+GED
+
+	Undo Commands
+	     1.	Insert Bus
+	     2.	Properties
+	     3.	Insert Symbol
+	     4.	Properties
+
+
+RPW
+
+	Undo Commands
+	     1.	||Simulation Report||Simulator||Logical Memories|||result|lpm_rom_6:inst|altsyncram:altsyncram_component|altsyncram_tb71:auto_generated|ALTSYNCRAM
+	     2.	||Simulation Report||Simulator||Logical Memories|||result|lpm_ram_dq_6:inst3|altsyncram:altsyncram_component|altsyncram_0fc1:auto_generated|ALTSYNCRAM
+	     3.	||Simulation Report||Simulator||Logical Memories|||result|lpm_rom_6:inst|altsyncram:altsyncram_component|altsyncram_tb71:auto_generated|ALTSYNCRAM
+	     4.	||Simulation Report||Simulator||Logical Memories|||result|lpm_ram_dq_6:inst3|altsyncram:altsyncram_component|altsyncram_0fc1:auto_generated|ALTSYNCRAM
+	     5.	||Simulation Report||Simulator||Logical Memories|||result|lpm_rom_6:inst|altsyncram:altsyncram_component|altsyncram_tb71:auto_generated|ALTSYNCRAM
+	     6.	||Simulation Report||Simulator||Logical Memories|||result|lpm_ram_dq_6:inst3|altsyncram:altsyncram_component|altsyncram_0fc1:auto_generated|ALTSYNCRAM
+	     7.	||Simulation Report||Simulator||Simulation Waveforms
+	     8.	||Simulation Report||Simulator||Logical Memories|||result|lpm_ram_dq_6:inst3|altsyncram:altsyncram_component|altsyncram_0fc1:auto_generated|ALTSYNCRAM
+	     9.	||Simulation Report||Simulator||Simulation Waveforms
+	    10.	||Simulation Report||Simulator||Logical Memories|||result|lpm_ram_dq_6:inst3|altsyncram:altsyncram_component|altsyncram_0fc1:auto_generated|ALTSYNCRAM
+	    11.	||Simulation Report||Simulator||Simulation Waveforms
+	    12.	||Simulation Report||Simulator||Logical Memories|||result|lpm_ram_dq_6:inst3|altsyncram:altsyncram_component|altsyncram_0fc1:auto_generated|ALTSYNCRAM
+	    13.	||Simulation Report||Simulator||Simulation Waveforms
+	    14.	||Simulation Report||Simulator||Logical Memories|||result|lpm_ram_dq_6:inst3|altsyncram:altsyncram_component|altsyncram_0fc1:auto_generated|ALTSYNCRAM
+	    15.	||Simulation Report||Simulator||Logical Memories|||result|lpm_rom_6:inst|altsyncram:altsyncram_component|altsyncram_tb71:auto_generated|ALTSYNCRAM
+	    16.	||Simulation Report||Simulator||Logical Memories|||result|lpm_ram_dq_6:inst3|altsyncram:altsyncram_component|altsyncram_0fc1:auto_generated|ALTSYNCRAM
+	    17.	||Simulation Report||Simulator||Logical Memories|||result|lpm_rom_6:inst|altsyncram:altsyncram_component|altsyncram_tb71:auto_generated|ALTSYNCRAM
+	    18.	||Simulation Report||Simulator||Logical Memories|||result|lpm_ram_dq_6:inst3|altsyncram:altsyncram_component|altsyncram_0fc1:auto_generated|ALTSYNCRAM
+	    19.	||Simulation Report||Simulator||Logical Memories|||result|lpm_rom_6:inst|altsyncram:altsyncram_component|altsyncram_tb71:auto_generated|ALTSYNCRAM
+	    20.	||Simulation Report||Simulator||Logical Memories|||result|lpm_ram_dq_6:inst3|altsyncram:altsyncram_component|altsyncram_0fc1:auto_generated|ALTSYNCRAM
+	    21.	||Simulation Report||Simulator||Simulation Waveforms
+	    22.	||Simulation Report||Simulator||Logical Memories|||result|lpm_ram_dq_6:inst3|altsyncram:altsyncram_component|altsyncram_0fc1:auto_generated|ALTSYNCRAM
+	    23.	||Simulation Report||Simulator||Simulation Waveforms
+	    24.	||Simulation Report||Simulator||Logical Memories|||result|lpm_ram_dq_6:inst3|altsyncram:altsyncram_component|altsyncram_0fc1:auto_generated|ALTSYNCRAM
+	    25.	||Simulation Report||Simulator||Simulation Waveforms
+	    26.	||Simulation Report||Simulator||Logical Memories|||result|lpm_ram_dq_6:inst3|altsyncram:altsyncram_component|altsyncram_0fc1:auto_generated|ALTSYNCRAM
+	    27.	||Simulation Report||Simulator||Logical Memories|||result|lpm_rom_6:inst|altsyncram:altsyncram_component|altsyncram_tb71:auto_generated|ALTSYNCRAM
+	    28.	||Simulation Report||Simulator||Logical Memories|||result|lpm_ram_dq_6:inst3|altsyncram:altsyncram_component|altsyncram_0fc1:auto_generated|ALTSYNCRAM
+	    29.	||Simulation Report||Simulator||Logical Memories|||result|lpm_rom_6:inst|altsyncram:altsyncram_component|altsyncram_tb71:auto_generated|ALTSYNCRAM
+	    30.	||Simulation Report||Simulator||Logical Memories|||result|lpm_ram_dq_6:inst3|altsyncram:altsyncram_component|altsyncram_0fc1:auto_generated|ALTSYNCRAM
+	    31.	||Simulation Report||Simulator||Simulation Waveforms
+	    32.	||Simulation Report||Simulator||Logical Memories|||result|lpm_rom_6:inst|altsyncram:altsyncram_component|altsyncram_tb71:auto_generated|ALTSYNCRAM
+	    33.	||Simulation Report||Simulator||Logical Memories|||result|lpm_ram_dq_6:inst3|altsyncram:altsyncram_component|altsyncram_0fc1:auto_generated|ALTSYNCRAM
+	    34.	||Simulation Report||Simulator||Logical Memories|||result|lpm_rom_6:inst|altsyncram:altsyncram_component|altsyncram_tb71:auto_generated|ALTSYNCRAM
+	    35.	||Simulation Report||Simulator||Simulation Waveforms
+	    36.	||Simulation Report||Simulator||Logical Memories|||result|lpm_ram_dq_6:inst3|altsyncram:altsyncram_component|altsyncram_0fc1:auto_generated|ALTSYNCRAM
+	    37.	||Simulation Report||Simulator||Simulation Waveforms
+	    38.	||Simulation Report||Simulator||Logical Memories|||result|lpm_ram_dq_6:inst3|altsyncram:altsyncram_component|altsyncram_0fc1:auto_generated|ALTSYNCRAM
+	    39.	||Simulation Report||Simulator||Logical Memories|||result|lpm_rom_6:inst|altsyncram:altsyncram_component|altsyncram_tb71:auto_generated|ALTSYNCRAM
+	    40.	||Simulation Report||Simulator||Logical Memories|||result|lpm_ram_dq_6:inst3|altsyncram:altsyncram_component|altsyncram_0fc1:auto_generated|ALTSYNCRAM
+	    41.	||Simulation Report||Simulator||Logical Memories|||result|lpm_rom_6:inst|altsyncram:altsyncram_component|altsyncram_tb71:auto_generated|ALTSYNCRAM
+	    42.	||Simulation Report||Simulator||Logical Memories|||result|lpm_ram_dq_6:inst3|altsyncram:altsyncram_component|altsyncram_0fc1:auto_generated|ALTSYNCRAM
+	    43.	||Simulation Report||Simulator||Logical Memories|||result|lpm_rom_6:inst|altsyncram:altsyncram_component|altsyncram_tb71:auto_generated|ALTSYNCRAM
+	    44.	||Simulation Report||Simulator||Logical Memories|||result|lpm_ram_dq_6:inst3|altsyncram:altsyncram_component|altsyncram_0fc1:auto_generated|ALTSYNCRAM
+	    45.	||Simulation Report||Simulator||Logical Memories|||result|lpm_rom_6:inst|altsyncram:altsyncram_component|altsyncram_tb71:auto_generated|ALTSYNCRAM
+	    46.	||Simulation Report||Simulator||Simulation Waveforms
+	    47.	||Simulation Report||Simulator||Logical Memories|||result|lpm_ram_dq_6:inst3|altsyncram:altsyncram_component|altsyncram_0fc1:auto_generated|ALTSYNCRAM
+	    48.	||Simulation Report||Simulator||Logical Memories|||result|lpm_rom_6:inst|altsyncram:altsyncram_component|altsyncram_tb71:auto_generated|ALTSYNCRAM
+	    49.	||Simulation Report||Simulator||Logical Memories|||result|lpm_ram_dq_6:inst3|altsyncram:altsyncram_component|altsyncram_0fc1:auto_generated|ALTSYNCRAM
+	    50.	||Simulation Report||Simulator||Logical Memories|||result|lpm_rom_6:inst|altsyncram:altsyncram_component|altsyncram_tb71:auto_generated|ALTSYNCRAM
+	    51.	||Simulation Report||Simulator||Logical Memories|||result|lpm_ram_dq_6:inst3|altsyncram:altsyncram_component|altsyncram_0fc1:auto_generated|ALTSYNCRAM
+	    52.	||Simulation Report||Simulator||Logical Memories|||result|lpm_rom_6:inst|altsyncram:altsyncram_component|altsyncram_tb71:auto_generated|ALTSYNCRAM
+	    53.	||Simulation Report||Simulator||Simulation Waveforms
+	    54.	||Simulation Report||Simulator||Logical Memories|||result|lpm_ram_dq_6:inst3|altsyncram:altsyncram_component|altsyncram_0fc1:auto_generated|ALTSYNCRAM
+	    55.	||Simulation Report||Simulator||Logical Memories|||result|lpm_rom_6:inst|altsyncram:altsyncram_component|altsyncram_tb71:auto_generated|ALTSYNCRAM
+	    56.	||Simulation Report||Simulator||Logical Memories|||result|lpm_ram_dq_6:inst3|altsyncram:altsyncram_component|altsyncram_0fc1:auto_generated|ALTSYNCRAM
+	    57.	||Simulation Report||Simulator||Logical Memories|||result|lpm_rom_6:inst|altsyncram:altsyncram_component|altsyncram_tb71:auto_generated|ALTSYNCRAM
+	    58.	||Simulation Report||Simulator||Logical Memories|||result|lpm_ram_dq_6:inst3|altsyncram:altsyncram_component|altsyncram_0fc1:auto_generated|ALTSYNCRAM
+	    59.	||Simulation Report||Simulator||Logical Memories|||result|lpm_rom_6:inst|altsyncram:altsyncram_component|altsyncram_tb71:auto_generated|ALTSYNCRAM
+	    60.	||Simulation Report||Simulator||Logical Memories|||result|lpm_ram_dq_6:inst3|altsyncram:altsyncram_component|altsyncram_0fc1:auto_generated|ALTSYNCRAM
+	    61.	||Simulation Report||Simulator||Logical Memories|||result|lpm_rom_6:inst|altsyncram:altsyncram_component|altsyncram_tb71:auto_generated|ALTSYNCRAM
+	    62.	||Simulation Report||Simulator||Simulation Waveforms
+	    63.	||Simulation Report||Simulator||Logical Memories|||result|lpm_ram_dq_6:inst3|altsyncram:altsyncram_component|altsyncram_0fc1:auto_generated|ALTSYNCRAM
+	    64.	||Simulation Report||Simulator||Logical Memories|||result|lpm_rom_6:inst|altsyncram:altsyncram_component|altsyncram_tb71:auto_generated|ALTSYNCRAM
+	    65.	||Simulation Report||Simulator||Simulation Waveforms
+
+
