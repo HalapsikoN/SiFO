@@ -15,9 +15,9 @@
 
 FUNCTION lpm_counter_ip 
 (
-	aload,
 	clock,
-	data[7..0]
+	data[7..0],
+	sload
 )
 
 RETURNS (

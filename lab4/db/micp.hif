@@ -172,6 +172,8 @@ clock
 }
 # hierarchies {
 lpm_dff_address:adr|lpm_ff:lpm_ff_component
+lpm_dff_address:inst104|lpm_ff:lpm_ff_component
+lpm_dff_address:inst107|lpm_ff:lpm_ff_component
 }
 # macro_sequence
 
@@ -316,6 +318,9 @@ lpm_dff_register:BX|lpm_ff:lpm_ff_component
 lpm_dff_register:CX|lpm_ff:lpm_ff_component
 lpm_dff_register:DX|lpm_ff:lpm_ff_component
 lpm_dff_data:dar|lpm_ff:lpm_ff_component
+lpm_dff_data:inst46|lpm_ff:lpm_ff_component
+lpm_dff_data:inst129|lpm_ff:lpm_ff_component
+lpm_dff_data:inst130|lpm_ff:lpm_ff_component
 lpm_dff_register:inst43|lpm_ff:lpm_ff_component
 }
 # macro_sequence
@@ -1549,55 +1554,6 @@ lpm_decode0:inst6|lpm_decode:lpm_decode_component|decode_8bf:auto_generated
 
 # end
 # entity
-lpm_counter_ip
-# storage
-db|micp.(11).cnf
-db|micp.(11).cnf
-# case_insensitive
-# source_file
-lpm_counter_ip.tdf
-aa164031a53129c51d35fd34a290c
-7
-# used_port {
-q7
--1
-3
-q6
--1
-3
-q5
--1
-3
-q4
--1
-3
-q3
--1
-3
-q2
--1
-3
-q1
--1
-3
-q0
--1
-3
-clock
--1
-3
-aload
--1
-3
-}
-# include_file {
-lpm_counter.inc
-c5cfeeabc5f2ab60b3453f6abbc42b41
-}
-# macro_sequence
-
-# end
-# entity
 lpm_counter
 # storage
 db|micp.(12).cnf
@@ -1737,9 +1693,6 @@ aload
 -1
 3
 }
-# hierarchies {
-lpm_counter_ip:ipo|lpm_counter:lpm_counter_component
-}
 # macro_sequence
 
 # end
@@ -1808,9 +1761,6 @@ clock
 aload
 -1
 3
-}
-# hierarchies {
-lpm_counter_ip:ipo|lpm_counter:lpm_counter_component|cntr_pki:auto_generated
 }
 # macro_sequence
 
@@ -2036,49 +1986,6 @@ DCa:inst|lpm_decode_up:inst4|lpm_decode:lpm_decode_component|decode_d9f:auto_gen
 
 # end
 # entity
-lpm_counter_by_up
-# storage
-db|micp.(18).cnf
-db|micp.(18).cnf
-# case_insensitive
-# source_file
-lpm_counter_by_up.tdf
-b3f438b81f62c4d2084fdaea1db2b29
-7
-# used_port {
-q4
--1
-3
-q3
--1
-3
-q2
--1
-3
-q1
--1
-3
-q0
--1
-3
-clock
--1
-3
-aclr
--1
-3
-}
-# include_file {
-lpm_counter.inc
-c5cfeeabc5f2ab60b3453f6abbc42b41
-}
-# hierarchies {
-DCa:inst|lpm_counter_by_up:inst
-}
-# macro_sequence
-
-# end
-# entity
 lpm_counter
 # storage
 db|micp.(19).cnf
@@ -2233,49 +2140,6 @@ DCa:inst|lpm_counter_by_down:inst1|lpm_counter:lpm_counter_component|cntr_t3i:au
 
 # end
 # entity
-lpm_counter_by_down
-# storage
-db|micp.(21).cnf
-db|micp.(21).cnf
-# case_insensitive
-# source_file
-lpm_counter_by_down.tdf
-c6ec966c7159975d8e4d2ccbdd08a4e
-7
-# used_port {
-q4
--1
-3
-q3
--1
-3
-q2
--1
-3
-q1
--1
-3
-q0
--1
-3
-clock
--1
-3
-aclr
--1
-3
-}
-# include_file {
-lpm_counter.inc
-c5cfeeabc5f2ab60b3453f6abbc42b41
-}
-# hierarchies {
-DCa:inst|lpm_counter_by_down:inst1
-}
-# macro_sequence
-
-# end
-# entity
 lpm_bustri0
 # storage
 db|micp.(22).cnf
@@ -2334,7 +2198,8 @@ e542f5adf6af653bd181242b9785544
 lpm_bustri0:inst3
 lpm_bustri0:inst54
 lpm_bustri0:inst7
-lpm_bustri0:inst4
+lpm_bustri0:inst18
+lpm_bustri0:inst140
 }
 # macro_sequence
 
@@ -2401,7 +2266,8 @@ lpm_bustri_to_ram:inst2|lpm_bustri:lpm_bustri_component
 lpm_bustri0:inst3|lpm_bustri:lpm_bustri_component
 lpm_bustri0:inst54|lpm_bustri:lpm_bustri_component
 lpm_bustri0:inst7|lpm_bustri:lpm_bustri_component
-lpm_bustri0:inst4|lpm_bustri:lpm_bustri_component
+lpm_bustri0:inst18|lpm_bustri:lpm_bustri_component
+lpm_bustri0:inst140|lpm_bustri:lpm_bustri_component
 }
 # macro_sequence
 
@@ -2498,58 +2364,6 @@ data1
 data0
 -1
 3
-}
-# macro_sequence
-
-# end
-# entity
-lpm_counter0
-# storage
-db|micp.(26).cnf
-db|micp.(26).cnf
-# case_insensitive
-# source_file
-lpm_counter0.tdf
-d3ad25252880fd7c487ec54762f4a98c
-7
-# used_port {
-q7
--1
-3
-q6
--1
-3
-q5
--1
-3
-q4
--1
-3
-q3
--1
-3
-q2
--1
-3
-q1
--1
-3
-q0
--1
-3
-clock
--1
-3
-aclr
--1
-3
-}
-# include_file {
-lpm_counter.inc
-c5cfeeabc5f2ab60b3453f6abbc42b41
-}
-# hierarchies {
-lpm_counter0:inst19
 }
 # macro_sequence
 
@@ -3136,6 +2950,7 @@ e542f5adf6af653bd181242b9785544
 # hierarchies {
 lpm_bustri1:inst36
 lpm_bustri1:inst37
+lpm_bustri1:inst113
 }
 # macro_sequence
 
@@ -3210,11 +3025,11 @@ data0
 3
 }
 # hierarchies {
-lpm_bustri2:inst8|lpm_bustri:lpm_bustri_component
-lpm_bustri2:inst9|lpm_bustri:lpm_bustri_component
 lpm_bustri1:inst36|lpm_bustri:lpm_bustri_component
 lpm_bustri1:inst37|lpm_bustri:lpm_bustri_component
-lpm_bustri2:inst48|lpm_bustri:lpm_bustri_component
+lpm_bustri2:inst8|lpm_bustri:lpm_bustri_component
+lpm_bustri2:inst9|lpm_bustri:lpm_bustri_component
+lpm_bustri1:inst113|lpm_bustri:lpm_bustri_component
 }
 # macro_sequence
 
@@ -3485,7 +3300,21 @@ data0_0
 # hierarchies {
 lpm_mux5:inst25|lpm_mux:lpm_mux_component
 lpm_mux5:inst22|lpm_mux:lpm_mux_component
+lpm_mux5:inst34|lpm_mux:lpm_mux_component
+lpm_mux5:inst52|lpm_mux:lpm_mux_component
 lpm_mux5:inst23|lpm_mux:lpm_mux_component
+lpm_mux5:inst29|lpm_mux:lpm_mux_component
+lpm_mux5:inst28|lpm_mux:lpm_mux_component
+lpm_mux5:inst27|lpm_mux:lpm_mux_component
+lpm_mux5:inst41|lpm_mux:lpm_mux_component
+lpm_mux5:inst32|lpm_mux:lpm_mux_component
+lpm_mux5:inst33|lpm_mux:lpm_mux_component
+lpm_mux5:inst31|lpm_mux:lpm_mux_component
+lpm_mux5:inst30|lpm_mux:lpm_mux_component
+lpm_mux5:inst40|lpm_mux:lpm_mux_component
+lpm_mux5:inst60|lpm_mux:lpm_mux_component
+lpm_mux5:inst35|lpm_mux:lpm_mux_component
+lpm_mux5:inst38|lpm_mux:lpm_mux_component
 }
 # macro_sequence
 
@@ -3526,7 +3355,21 @@ data0
 # hierarchies {
 lpm_mux5:inst25|lpm_mux:lpm_mux_component|mux_qnc:auto_generated
 lpm_mux5:inst22|lpm_mux:lpm_mux_component|mux_qnc:auto_generated
+lpm_mux5:inst34|lpm_mux:lpm_mux_component|mux_qnc:auto_generated
+lpm_mux5:inst52|lpm_mux:lpm_mux_component|mux_qnc:auto_generated
 lpm_mux5:inst23|lpm_mux:lpm_mux_component|mux_qnc:auto_generated
+lpm_mux5:inst29|lpm_mux:lpm_mux_component|mux_qnc:auto_generated
+lpm_mux5:inst28|lpm_mux:lpm_mux_component|mux_qnc:auto_generated
+lpm_mux5:inst27|lpm_mux:lpm_mux_component|mux_qnc:auto_generated
+lpm_mux5:inst41|lpm_mux:lpm_mux_component|mux_qnc:auto_generated
+lpm_mux5:inst32|lpm_mux:lpm_mux_component|mux_qnc:auto_generated
+lpm_mux5:inst33|lpm_mux:lpm_mux_component|mux_qnc:auto_generated
+lpm_mux5:inst31|lpm_mux:lpm_mux_component|mux_qnc:auto_generated
+lpm_mux5:inst30|lpm_mux:lpm_mux_component|mux_qnc:auto_generated
+lpm_mux5:inst40|lpm_mux:lpm_mux_component|mux_qnc:auto_generated
+lpm_mux5:inst60|lpm_mux:lpm_mux_component|mux_qnc:auto_generated
+lpm_mux5:inst35|lpm_mux:lpm_mux_component|mux_qnc:auto_generated
+lpm_mux5:inst38|lpm_mux:lpm_mux_component|mux_qnc:auto_generated
 }
 # macro_sequence
 
@@ -3619,6 +3462,9 @@ data
 lpm_bustri.inc
 e542f5adf6af653bd181242b9785544
 }
+# hierarchies {
+lpm_bustri4:inst5
+}
 # macro_sequence
 
 # end
@@ -3650,7 +3496,7 @@ data0
 3
 }
 # hierarchies {
-lpm_bustri4:inst41|lpm_bustri:lpm_bustri_component
+lpm_bustri4:inst5|lpm_bustri:lpm_bustri_component
 }
 # macro_sequence
 
@@ -3676,9 +3522,6 @@ clock
 # include_file {
 lpm_ff.inc
 5b1f18ec4f969a147b22e8c42bf962ac
-}
-# hierarchies {
-lpm_dff_flag:ovf
 }
 # macro_sequence
 
@@ -3753,82 +3596,6 @@ lpm_dff_flag:ovf|lpm_ff:lpm_ff_component
 
 # end
 # entity
-lpm_counter_ip
-# storage
-db|micp.(46).cnf
-db|micp.(46).cnf
-# case_insensitive
-# source_file
-lpm_counter_ip.tdf
-aa164031a53129c51d35fd34a290c
-7
-# used_port {
-q7
--1
-3
-q6
--1
-3
-q5
--1
-3
-q4
--1
-3
-q3
--1
-3
-q2
--1
-3
-q1
--1
-3
-q0
--1
-3
-data7
--1
-3
-data6
--1
-3
-data5
--1
-3
-data4
--1
-3
-data3
--1
-3
-data2
--1
-3
-data1
--1
-3
-data0
--1
-3
-clock
--1
-3
-aload
--1
-3
-}
-# include_file {
-lpm_counter.inc
-c5cfeeabc5f2ab60b3453f6abbc42b41
-}
-# hierarchies {
-lpm_counter_ip:ipo
-}
-# macro_sequence
-
-# end
-# entity
 lpm_bustri4
 # storage
 db|micp.(47).cnf
@@ -3852,9 +3619,6 @@ data
 # include_file {
 lpm_bustri.inc
 e542f5adf6af653bd181242b9785544
-}
-# hierarchies {
-lpm_bustri4:inst41
 }
 # macro_sequence
 
@@ -3895,6 +3659,12 @@ data0
 # include_file {
 lpm_mux.inc
 dd87bed9959d6126db09970164b7ba6
+}
+# hierarchies {
+lpm_mux5:inst25
+lpm_mux5:inst34
+lpm_mux5:inst29
+lpm_mux5:inst28
 }
 # macro_sequence
 
@@ -3969,7 +3739,6 @@ e542f5adf6af653bd181242b9785544
 # hierarchies {
 lpm_bustri2:inst8
 lpm_bustri2:inst9
-lpm_bustri2:inst48
 }
 # macro_sequence
 
@@ -4304,7 +4073,7 @@ data0_0
 }
 # hierarchies {
 lpm_mux6:first_comand|lpm_mux:lpm_mux_component
-lpm_mux6:first_comand19|lpm_mux:lpm_mux_component
+lpm_mux6:second_comand|lpm_mux:lpm_mux_component
 }
 # macro_sequence
 
@@ -4449,7 +4218,7 @@ data0
 }
 # hierarchies {
 lpm_mux6:first_comand|lpm_mux:lpm_mux_component|mux_1oc:auto_generated
-lpm_mux6:first_comand19|lpm_mux:lpm_mux_component|mux_1oc:auto_generated
+lpm_mux6:second_comand|lpm_mux:lpm_mux_component|mux_1oc:auto_generated
 }
 # macro_sequence
 
@@ -5251,6 +5020,8 @@ lpm_ff.inc
 }
 # hierarchies {
 lpm_dff_address:adr
+lpm_dff_address:inst104
+lpm_dff_address:inst107
 }
 # macro_sequence
 
@@ -5312,6 +5083,9 @@ lpm_ff.inc
 }
 # hierarchies {
 lpm_dff_data:dar
+lpm_dff_data:inst46
+lpm_dff_data:inst129
+lpm_dff_data:inst130
 }
 # macro_sequence
 
@@ -6294,9 +6068,7 @@ lpm_mux.inc
 dd87bed9959d6126db09970164b7ba6
 }
 # hierarchies {
-lpm_mux5:inst25
 lpm_mux5:inst22
-lpm_mux5:inst23
 }
 # macro_sequence
 
@@ -6444,7 +6216,7 @@ lpm_mux.inc
 dd87bed9959d6126db09970164b7ba6
 }
 # hierarchies {
-lpm_mux6:first_comand19
+lpm_mux6:second_comand
 }
 # macro_sequence
 
@@ -6547,25 +6319,9 @@ data0
 lpm_mux.inc
 dd87bed9959d6126db09970164b7ba6
 }
-# macro_sequence
-
-# end
-# entity
-DCa
-# storage
-db|micp.(14).cnf
-db|micp.(14).cnf
-# case_insensitive
-# source_file
-dca.bdf
-ee7e41b3a48fdcf98c4c0a9e2927efa
-26
-# internal_option {
-BLOCK_DESIGN_NAMING
-AUTO
-}
 # hierarchies {
-DCa:inst
+lpm_mux5:inst35
+lpm_mux5:inst38
 }
 # macro_sequence
 
@@ -6632,93 +6388,6 @@ lpm_decode.inc
 
 # end
 # entity
-altsyncram_dk91
-# storage
-db|micp.(31).cnf
-db|micp.(31).cnf
-# case_insensitive
-# source_file
-db|altsyncram_dk91.tdf
-b61e8374f0dd41b496d81284f0d43a3
-7
-# used_port {
-q_a5
--1
-3
-q_a4
--1
-3
-q_a3
--1
-3
-q_a2
--1
-3
-q_a1
--1
-3
-q_a0
--1
-3
-clock0
--1
-3
-address_a7
--1
-3
-address_a6
--1
-3
-address_a5
--1
-3
-address_a4
--1
-3
-address_a3
--1
-3
-address_a2
--1
-3
-address_a1
--1
-3
-address_a0
--1
-3
-}
-# memory_file {
-rom.hex
-872aa76fe4bf01f247d39ea62501edc
-}
-# hierarchies {
-lpm_rom_cmd:irom|altsyncram:altsyncram_component|altsyncram_dk91:auto_generated
-}
-# macro_sequence
-
-# end
-# entity
-result
-# storage
-db|micp.(0).cnf
-db|micp.(0).cnf
-# case_insensitive
-# source_file
-result.bdf
-8017b6f3add1381343a771d7fdd98e
-26
-# internal_option {
-BLOCK_DESIGN_NAMING
-AUTO
-}
-# hierarchies {
-|
-}
-# macro_sequence
-
-# end
-# entity
 lpm_decode1
 # storage
 db|micp.(77).cnf
@@ -6776,8 +6445,2909 @@ data0
 lpm_decode.inc
 10da69a8bbd590d66779e7a142f73790
 }
+# macro_sequence
+
+# end
+# entity
+lpm_mux5
+# storage
+db|micp.(78).cnf
+db|micp.(78).cnf
+# case_insensitive
+# source_file
+lpm_mux5.tdf
+f48c8b0b6f91734d0f2a06ee917db2
+7
+# used_port {
+sel1
+-1
+3
+sel0
+-1
+3
+result
+-1
+3
+data2
+-1
+3
+data0
+-1
+3
+data3
+-1
+1
+data1
+-1
+1
+}
+# include_file {
+lpm_mux.inc
+dd87bed9959d6126db09970164b7ba6
+}
+# macro_sequence
+
+# end
+# entity
+lpm_dff_flag
+# storage
+db|micp.(79).cnf
+db|micp.(79).cnf
+# case_insensitive
+# source_file
+lpm_dff_flag.tdf
+b66e86e8966e7773687e7120283e111a
+7
+# used_port {
+q
+-1
+3
+data
+-1
+3
+clock
+-1
+3
+}
+# include_file {
+lpm_ff.inc
+5b1f18ec4f969a147b22e8c42bf962ac
+}
+# hierarchies {
+lpm_dff_flag:ovf
+}
+# macro_sequence
+
+# end
+# entity
+lpm_decode1
+# storage
+db|micp.(80).cnf
+db|micp.(80).cnf
+# case_insensitive
+# source_file
+lpm_decode1.tdf
+4685f649a8c4ca08a9393c11a9c53c
+7
+# used_port {
+eq8
+-1
+3
+eq6
+-1
+3
+eq5
+-1
+3
+eq4
+-1
+3
+eq3
+-1
+3
+eq2
+-1
+3
+eq1
+-1
+3
+data7
+-1
+3
+data6
+-1
+3
+data5
+-1
+3
+data4
+-1
+3
+data3
+-1
+3
+data2
+-1
+3
+data1
+-1
+3
+data0
+-1
+3
+}
+# include_file {
+lpm_decode.inc
+10da69a8bbd590d66779e7a142f73790
+}
+# macro_sequence
+
+# end
+# entity
+lpm_mux5
+# storage
+db|micp.(81).cnf
+db|micp.(81).cnf
+# case_insensitive
+# source_file
+lpm_mux5.tdf
+f48c8b0b6f91734d0f2a06ee917db2
+7
+# used_port {
+sel1
+-1
+3
+sel0
+-1
+3
+result
+-1
+3
+data2
+-1
+3
+data3
+-1
+1
+data1
+-1
+1
+data0
+-1
+1
+}
+# include_file {
+lpm_mux.inc
+dd87bed9959d6126db09970164b7ba6
+}
+# hierarchies {
+lpm_mux5:inst40
+}
+# macro_sequence
+
+# end
+# entity
+lpm_add_sub
+# storage
+db|micp.(83).cnf
+db|micp.(83).cnf
+# case_insensitive
+# source_file
+|altera|quartus|libraries|megafunctions|lpm_add_sub.tdf
+48629daa7d9afedc175e3e79ef6f21
+7
+# user_parameter {
+LPM_WIDTH
+6
+PARAMETER_UNKNOWN
+USR
+LPM_REPRESENTATION
+UNSIGNED
+PARAMETER_UNKNOWN
+USR
+LPM_DIRECTION
+ADD
+PARAMETER_UNKNOWN
+USR
+ONE_INPUT_IS_CONSTANT
+YES
+PARAMETER_UNKNOWN
+USR
+LPM_PIPELINE
+1
+PARAMETER_UNKNOWN
+USR
+MAXIMIZE_SPEED
+5
+PARAMETER_UNKNOWN
+DEF
+REGISTERED_AT_END
+0
+PARAMETER_UNKNOWN
+DEF
+OPTIMIZE_FOR_SPEED
+5
+PARAMETER_UNKNOWN
+USR
+USE_CS_BUFFERS
+1
+PARAMETER_UNKNOWN
+DEF
+CARRY_CHAIN
+MANUAL
+PARAMETER_UNKNOWN
+USR
+CARRY_CHAIN_LENGTH
+48
+CARRY_CHAIN_LENGTH
+USR
+DEVICE_FAMILY
+Stratix II
+PARAMETER_UNKNOWN
+USR
+USE_WYS
+OFF
+PARAMETER_UNKNOWN
+DEF
+STYLE
+FAST
+PARAMETER_UNKNOWN
+USR
+CBXI_PARAMETER
+add_sub_cjk
+PARAMETER_UNKNOWN
+USR
+AUTO_CARRY_CHAINS
+ON
+AUTO_CARRY
+USR
+IGNORE_CARRY_BUFFERS
+OFF
+IGNORE_CARRY
+USR
+AUTO_CASCADE_CHAINS
+ON
+AUTO_CASCADE
+USR
+IGNORE_CASCADE_BUFFERS
+OFF
+IGNORE_CASCADE
+USR
+}
+# used_port {
+result5
+-1
+3
+result4
+-1
+3
+result3
+-1
+3
+result2
+-1
+3
+result1
+-1
+3
+result0
+-1
+3
+overflow
+-1
+3
+dataa5
+-1
+3
+dataa4
+-1
+3
+dataa3
+-1
+3
+dataa2
+-1
+3
+dataa1
+-1
+3
+dataa0
+-1
+3
+clock
+-1
+3
+datab5
+-1
+1
+datab4
+-1
+1
+datab3
+-1
+1
+datab2
+-1
+1
+datab1
+-1
+1
+datab0
+-1
+2
+}
+# macro_sequence
+
+# end
+# entity
+add_sub_cjk
+# storage
+db|micp.(84).cnf
+db|micp.(84).cnf
+# case_insensitive
+# source_file
+db|add_sub_cjk.tdf
+6e12bdd82ea4c835a6fa756b6c0a086
+7
+# used_port {
+result5
+-1
+3
+result4
+-1
+3
+result3
+-1
+3
+result2
+-1
+3
+result1
+-1
+3
+result0
+-1
+3
+overflow
+-1
+3
+datab5
+-1
+3
+datab4
+-1
+3
+datab3
+-1
+3
+datab2
+-1
+3
+datab1
+-1
+3
+datab0
+-1
+3
+dataa5
+-1
+3
+dataa4
+-1
+3
+dataa3
+-1
+3
+dataa2
+-1
+3
+dataa1
+-1
+3
+dataa0
+-1
+3
+clock
+-1
+3
+}
+# macro_sequence
+
+# end
+# entity
+lpm_add_sub0
+# storage
+db|micp.(82).cnf
+db|micp.(82).cnf
+# case_insensitive
+# source_file
+lpm_add_sub0.tdf
+eb65d3d1bc81aa49858d871bcc14771
+7
+# used_port {
+result5
+-1
+3
+result4
+-1
+3
+result3
+-1
+3
+result2
+-1
+3
+result1
+-1
+3
+result0
+-1
+3
+overflow
+-1
+3
+dataa5
+-1
+3
+dataa4
+-1
+3
+dataa3
+-1
+3
+dataa2
+-1
+3
+dataa1
+-1
+3
+dataa0
+-1
+3
+}
+# include_file {
+lpm_add_sub.inc
+144a73b61081a2a03554ff5acc5e8842
+}
+# hierarchies {
+lpm_add_sub0:inst15
+}
+# macro_sequence
+
+# end
+# entity
+lpm_add_sub
+# storage
+db|micp.(85).cnf
+db|micp.(85).cnf
+# case_insensitive
+# source_file
+|altera|quartus|libraries|megafunctions|lpm_add_sub.tdf
+48629daa7d9afedc175e3e79ef6f21
+7
+# user_parameter {
+LPM_WIDTH
+6
+PARAMETER_UNKNOWN
+USR
+LPM_REPRESENTATION
+UNSIGNED
+PARAMETER_UNKNOWN
+USR
+LPM_DIRECTION
+ADD
+PARAMETER_UNKNOWN
+USR
+ONE_INPUT_IS_CONSTANT
+YES
+PARAMETER_UNKNOWN
+USR
+LPM_PIPELINE
+0
+PARAMETER_UNKNOWN
+DEF
+MAXIMIZE_SPEED
+5
+PARAMETER_UNKNOWN
+DEF
+REGISTERED_AT_END
+0
+PARAMETER_UNKNOWN
+DEF
+OPTIMIZE_FOR_SPEED
+5
+PARAMETER_UNKNOWN
+USR
+USE_CS_BUFFERS
+1
+PARAMETER_UNKNOWN
+DEF
+CARRY_CHAIN
+MANUAL
+PARAMETER_UNKNOWN
+USR
+CARRY_CHAIN_LENGTH
+48
+CARRY_CHAIN_LENGTH
+USR
+DEVICE_FAMILY
+Stratix II
+PARAMETER_UNKNOWN
+USR
+USE_WYS
+OFF
+PARAMETER_UNKNOWN
+DEF
+STYLE
+FAST
+PARAMETER_UNKNOWN
+USR
+CBXI_PARAMETER
+add_sub_kli
+PARAMETER_UNKNOWN
+USR
+AUTO_CARRY_CHAINS
+ON
+AUTO_CARRY
+USR
+IGNORE_CARRY_BUFFERS
+OFF
+IGNORE_CARRY
+USR
+AUTO_CASCADE_CHAINS
+ON
+AUTO_CASCADE
+USR
+IGNORE_CASCADE_BUFFERS
+OFF
+IGNORE_CASCADE
+USR
+}
+# used_port {
+result5
+-1
+3
+result4
+-1
+3
+result3
+-1
+3
+result2
+-1
+3
+result1
+-1
+3
+result0
+-1
+3
+overflow
+-1
+3
+dataa5
+-1
+3
+dataa4
+-1
+3
+dataa3
+-1
+3
+dataa2
+-1
+3
+dataa1
+-1
+3
+dataa0
+-1
+3
+datab5
+-1
+1
+datab4
+-1
+1
+datab3
+-1
+1
+datab2
+-1
+1
+datab1
+-1
+1
+datab0
+-1
+2
+}
+# hierarchies {
+lpm_add_sub0:inst15|lpm_add_sub:lpm_add_sub_component
+}
+# macro_sequence
+
+# end
+# entity
+add_sub_kli
+# storage
+db|micp.(86).cnf
+db|micp.(86).cnf
+# case_insensitive
+# source_file
+db|add_sub_kli.tdf
+7d45d91b7ff663e79b7a11d1d22f034
+7
+# used_port {
+result5
+-1
+3
+result4
+-1
+3
+result3
+-1
+3
+result2
+-1
+3
+result1
+-1
+3
+result0
+-1
+3
+overflow
+-1
+3
+datab5
+-1
+3
+datab4
+-1
+3
+datab3
+-1
+3
+datab2
+-1
+3
+datab1
+-1
+3
+datab0
+-1
+3
+dataa5
+-1
+3
+dataa4
+-1
+3
+dataa3
+-1
+3
+dataa2
+-1
+3
+dataa1
+-1
+3
+dataa0
+-1
+3
+}
+# hierarchies {
+lpm_add_sub0:inst15|lpm_add_sub:lpm_add_sub_component|add_sub_kli:auto_generated
+}
+# macro_sequence
+
+# end
+# entity
+lpm_decode1
+# storage
+db|micp.(87).cnf
+db|micp.(87).cnf
+# case_insensitive
+# source_file
+lpm_decode1.tdf
+4685f649a8c4ca08a9393c11a9c53c
+7
+# used_port {
+eq8
+-1
+3
+eq7
+-1
+3
+eq6
+-1
+3
+eq5
+-1
+3
+eq4
+-1
+3
+eq3
+-1
+3
+eq2
+-1
+3
+eq1
+-1
+3
+data7
+-1
+3
+data6
+-1
+3
+data5
+-1
+3
+data4
+-1
+3
+data3
+-1
+3
+data2
+-1
+3
+data1
+-1
+3
+data0
+-1
+3
+}
+# include_file {
+lpm_decode.inc
+10da69a8bbd590d66779e7a142f73790
+}
+# macro_sequence
+
+# end
+# entity
+lpm_counter
+# storage
+db|micp.(21).cnf
+db|micp.(21).cnf
+# case_insensitive
+# source_file
+|altera|quartus|libraries|megafunctions|lpm_counter.tdf
+ea80917e5f6a67b6043b433538e1f4b
+7
+# user_parameter {
+AUTO_CARRY_CHAINS
+ON
+AUTO_CARRY
+USR
+IGNORE_CARRY_BUFFERS
+OFF
+IGNORE_CARRY
+USR
+AUTO_CASCADE_CHAINS
+ON
+AUTO_CASCADE
+USR
+IGNORE_CASCADE_BUFFERS
+OFF
+IGNORE_CASCADE
+USR
+LPM_WIDTH
+5
+PARAMETER_UNKNOWN
+USR
+LPM_DIRECTION
+UP
+PARAMETER_UNKNOWN
+USR
+LPM_MODULUS
+0
+PARAMETER_UNKNOWN
+DEF
+LPM_AVALUE
+UNUSED
+PARAMETER_UNKNOWN
+DEF
+LPM_SVALUE
+UNUSED
+PARAMETER_UNKNOWN
+DEF
+LPM_PORT_UPDOWN
+PORT_UNUSED
+PARAMETER_UNKNOWN
+USR
+DEVICE_FAMILY
+Stratix II
+PARAMETER_UNKNOWN
+USR
+CARRY_CHAIN
+MANUAL
+PARAMETER_UNKNOWN
+USR
+CARRY_CHAIN_LENGTH
+48
+CARRY_CHAIN_LENGTH
+USR
+NOT_GATE_PUSH_BACK
+ON
+NOT_GATE_PUSH_BACK
+USR
+CARRY_CNT_EN
+SMART
+PARAMETER_UNKNOWN
+DEF
+LABWIDE_SCLR
+ON
+PARAMETER_UNKNOWN
+DEF
+USE_NEW_VERSION
+TRUE
+PARAMETER_UNKNOWN
+DEF
+CBXI_PARAMETER
+cntr_f4i
+PARAMETER_UNKNOWN
+USR
+}
+# used_port {
+sclr
+-1
+3
+q4
+-1
+3
+q3
+-1
+3
+q2
+-1
+3
+q1
+-1
+3
+q0
+-1
+3
+clock
+-1
+3
+}
+# macro_sequence
+
+# end
+# entity
+cntr_f4i
+# storage
+db|micp.(26).cnf
+db|micp.(26).cnf
+# case_insensitive
+# source_file
+db|cntr_f4i.tdf
+8cbf9aa14ab5a4a29137fa9111f212aa
+7
+# used_port {
+sclr
+-1
+3
+q4
+-1
+3
+q3
+-1
+3
+q2
+-1
+3
+q1
+-1
+3
+q0
+-1
+3
+clock
+-1
+3
+}
+# macro_sequence
+
+# end
+# entity
+lpm_decode1
+# storage
+db|micp.(89).cnf
+db|micp.(89).cnf
+# case_insensitive
+# source_file
+lpm_decode1.tdf
+4685f649a8c4ca08a9393c11a9c53c
+7
+# used_port {
+eq7
+-1
+3
+eq6
+-1
+3
+eq5
+-1
+3
+eq4
+-1
+3
+eq3
+-1
+3
+eq2
+-1
+3
+eq1
+-1
+3
+data7
+-1
+3
+data6
+-1
+3
+data5
+-1
+3
+data4
+-1
+3
+data3
+-1
+3
+data2
+-1
+3
+data1
+-1
+3
+data0
+-1
+3
+}
+# include_file {
+lpm_decode.inc
+10da69a8bbd590d66779e7a142f73790
+}
+# macro_sequence
+
+# end
+# entity
+lpm_counter
+# storage
+db|micp.(91).cnf
+db|micp.(91).cnf
+# case_insensitive
+# source_file
+|altera|quartus|libraries|megafunctions|lpm_counter.tdf
+ea80917e5f6a67b6043b433538e1f4b
+7
+# user_parameter {
+AUTO_CARRY_CHAINS
+ON
+AUTO_CARRY
+USR
+IGNORE_CARRY_BUFFERS
+OFF
+IGNORE_CARRY
+USR
+AUTO_CASCADE_CHAINS
+ON
+AUTO_CASCADE
+USR
+IGNORE_CASCADE_BUFFERS
+OFF
+IGNORE_CASCADE
+USR
+LPM_WIDTH
+8
+PARAMETER_UNKNOWN
+USR
+LPM_DIRECTION
+UP
+PARAMETER_UNKNOWN
+USR
+LPM_MODULUS
+0
+PARAMETER_UNKNOWN
+DEF
+LPM_AVALUE
+UNUSED
+PARAMETER_UNKNOWN
+DEF
+LPM_SVALUE
+UNUSED
+PARAMETER_UNKNOWN
+DEF
+LPM_PORT_UPDOWN
+PORT_UNUSED
+PARAMETER_UNKNOWN
+USR
+DEVICE_FAMILY
+Stratix II
+PARAMETER_UNKNOWN
+USR
+CARRY_CHAIN
+MANUAL
+PARAMETER_UNKNOWN
+USR
+CARRY_CHAIN_LENGTH
+48
+CARRY_CHAIN_LENGTH
+USR
+NOT_GATE_PUSH_BACK
+ON
+NOT_GATE_PUSH_BACK
+USR
+CARRY_CNT_EN
+SMART
+PARAMETER_UNKNOWN
+DEF
+LABWIDE_SCLR
+ON
+PARAMETER_UNKNOWN
+DEF
+USE_NEW_VERSION
+TRUE
+PARAMETER_UNKNOWN
+DEF
+CBXI_PARAMETER
+cntr_i4i
+PARAMETER_UNKNOWN
+USR
+}
+# used_port {
+sclr
+-1
+3
+q7
+-1
+3
+q6
+-1
+3
+q5
+-1
+3
+q4
+-1
+3
+q3
+-1
+3
+q2
+-1
+3
+q1
+-1
+3
+q0
+-1
+3
+clock
+-1
+3
+}
+# macro_sequence
+
+# end
+# entity
+cntr_i4i
+# storage
+db|micp.(92).cnf
+db|micp.(92).cnf
+# case_insensitive
+# source_file
+db|cntr_i4i.tdf
+70ead495a932728496388e9bcb72b7a5
+7
+# used_port {
+sclr
+-1
+3
+q7
+-1
+3
+q6
+-1
+3
+q5
+-1
+3
+q4
+-1
+3
+q3
+-1
+3
+q2
+-1
+3
+q1
+-1
+3
+q0
+-1
+3
+clock
+-1
+3
+}
+# macro_sequence
+
+# end
+# entity
+DCa
+# storage
+db|micp.(14).cnf
+db|micp.(14).cnf
+# case_insensitive
+# source_file
+dca.bdf
+245cec821545297d121d744e132b1b
+26
+# internal_option {
+BLOCK_DESIGN_NAMING
+AUTO
+}
+# hierarchies {
+DCa:inst
+}
+# macro_sequence
+
+# end
+# entity
+lpm_counter_by_up
+# storage
+db|micp.(18).cnf
+db|micp.(18).cnf
+# case_insensitive
+# source_file
+lpm_counter_by_up.tdf
+b3f438b81f62c4d2084fdaea1db2b29
+7
+# used_port {
+q4
+-1
+3
+q3
+-1
+3
+q2
+-1
+3
+q1
+-1
+3
+q0
+-1
+3
+clock
+-1
+3
+aclr
+-1
+3
+}
+# include_file {
+lpm_counter.inc
+c5cfeeabc5f2ab60b3453f6abbc42b41
+}
+# hierarchies {
+DCa:inst|lpm_counter_by_up:inst
+}
+# macro_sequence
+
+# end
+# entity
+lpm_counter_by_down
+# storage
+db|micp.(88).cnf
+db|micp.(88).cnf
+# case_insensitive
+# source_file
+lpm_counter_by_down.tdf
+c6ec966c7159975d8e4d2ccbdd08a4e
+7
+# used_port {
+q4
+-1
+3
+q3
+-1
+3
+q2
+-1
+3
+q1
+-1
+3
+q0
+-1
+3
+clock
+-1
+3
+aclr
+-1
+3
+}
+# include_file {
+lpm_counter.inc
+c5cfeeabc5f2ab60b3453f6abbc42b41
+}
+# hierarchies {
+DCa:inst|lpm_counter_by_down:inst1
+}
+# macro_sequence
+
+# end
+# entity
+lpm_counter0
+# storage
+db|micp.(90).cnf
+db|micp.(90).cnf
+# case_insensitive
+# source_file
+lpm_counter0.tdf
+d3ad25252880fd7c487ec54762f4a98c
+7
+# used_port {
+q7
+-1
+3
+q6
+-1
+3
+q5
+-1
+3
+q4
+-1
+3
+q3
+-1
+3
+q2
+-1
+3
+q1
+-1
+3
+q0
+-1
+3
+clock
+-1
+3
+aclr
+-1
+3
+}
+# include_file {
+lpm_counter.inc
+c5cfeeabc5f2ab60b3453f6abbc42b41
+}
+# hierarchies {
+lpm_counter0:inst19
+}
+# macro_sequence
+
+# end
+# entity
+lpm_decode1
+# storage
+db|micp.(93).cnf
+db|micp.(93).cnf
+# case_insensitive
+# source_file
+lpm_decode1.tdf
+4685f649a8c4ca08a9393c11a9c53c
+7
+# used_port {
+eq9
+-1
+3
+eq8
+-1
+3
+eq7
+-1
+3
+eq6
+-1
+3
+eq5
+-1
+3
+eq4
+-1
+3
+eq3
+-1
+3
+eq2
+-1
+3
+eq1
+-1
+3
+data7
+-1
+3
+data6
+-1
+3
+data5
+-1
+3
+data4
+-1
+3
+data3
+-1
+3
+data2
+-1
+3
+data1
+-1
+3
+data0
+-1
+3
+}
+# include_file {
+lpm_decode.inc
+10da69a8bbd590d66779e7a142f73790
+}
 # hierarchies {
 lpm_decode1:inst20
+}
+# macro_sequence
+
+# end
+# entity
+lpm_decode1
+# storage
+db|micp.(94).cnf
+db|micp.(94).cnf
+# case_insensitive
+# source_file
+lpm_decode1.tdf
+4685f649a8c4ca08a9393c11a9c53c
+7
+# used_port {
+eq8
+-1
+3
+eq7
+-1
+3
+eq6
+-1
+3
+eq5
+-1
+3
+eq4
+-1
+3
+eq3
+-1
+3
+eq2
+-1
+3
+eq10
+-1
+3
+eq1
+-1
+3
+data7
+-1
+3
+data6
+-1
+3
+data5
+-1
+3
+data4
+-1
+3
+data3
+-1
+3
+data2
+-1
+3
+data1
+-1
+3
+data0
+-1
+3
+}
+# include_file {
+lpm_decode.inc
+10da69a8bbd590d66779e7a142f73790
+}
+# macro_sequence
+
+# end
+# entity
+lpm_mux5
+# storage
+db|micp.(95).cnf
+db|micp.(95).cnf
+# case_insensitive
+# source_file
+lpm_mux5.tdf
+f48c8b0b6f91734d0f2a06ee917db2
+7
+# used_port {
+sel1
+-1
+3
+sel0
+-1
+3
+result
+-1
+3
+data2
+-1
+3
+data1
+-1
+3
+data0
+-1
+3
+data3
+-1
+1
+}
+# include_file {
+lpm_mux.inc
+dd87bed9959d6126db09970164b7ba6
+}
+# macro_sequence
+
+# end
+# entity
+lpm_mux5
+# storage
+db|micp.(96).cnf
+db|micp.(96).cnf
+# case_insensitive
+# source_file
+lpm_mux5.tdf
+f48c8b0b6f91734d0f2a06ee917db2
+7
+# used_port {
+sel1
+-1
+3
+sel0
+-1
+3
+result
+-1
+3
+data1
+-1
+3
+data3
+-1
+1
+data2
+-1
+1
+data0
+-1
+1
+}
+# include_file {
+lpm_mux.inc
+dd87bed9959d6126db09970164b7ba6
+}
+# hierarchies {
+lpm_mux5:inst52
+lpm_mux5:inst41
+}
+# macro_sequence
+
+# end
+# entity
+lpm_add_sub1
+# storage
+db|micp.(97).cnf
+db|micp.(97).cnf
+# case_insensitive
+# source_file
+lpm_add_sub1.tdf
+899414f7461513bef3b35943e254df5e
+7
+# used_port {
+result7
+-1
+3
+result6
+-1
+3
+result5
+-1
+3
+result4
+-1
+3
+result3
+-1
+3
+result2
+-1
+3
+result1
+-1
+3
+result0
+-1
+3
+datab7
+-1
+3
+datab6
+-1
+3
+datab5
+-1
+3
+datab4
+-1
+3
+datab3
+-1
+3
+datab2
+-1
+3
+datab1
+-1
+3
+datab0
+-1
+3
+dataa7
+-1
+3
+dataa6
+-1
+3
+dataa5
+-1
+3
+dataa4
+-1
+3
+dataa3
+-1
+3
+dataa2
+-1
+3
+dataa1
+-1
+3
+dataa0
+-1
+3
+}
+# include_file {
+lpm_add_sub.inc
+144a73b61081a2a03554ff5acc5e8842
+}
+# hierarchies {
+lpm_add_sub1:inst112
+}
+# macro_sequence
+
+# end
+# entity
+lpm_add_sub
+# storage
+db|micp.(98).cnf
+db|micp.(98).cnf
+# case_insensitive
+# source_file
+|altera|quartus|libraries|megafunctions|lpm_add_sub.tdf
+48629daa7d9afedc175e3e79ef6f21
+7
+# user_parameter {
+LPM_WIDTH
+8
+PARAMETER_UNKNOWN
+USR
+LPM_REPRESENTATION
+UNSIGNED
+PARAMETER_UNKNOWN
+USR
+LPM_DIRECTION
+ADD
+PARAMETER_UNKNOWN
+USR
+ONE_INPUT_IS_CONSTANT
+NO
+PARAMETER_UNKNOWN
+USR
+LPM_PIPELINE
+0
+PARAMETER_UNKNOWN
+DEF
+MAXIMIZE_SPEED
+5
+PARAMETER_UNKNOWN
+DEF
+REGISTERED_AT_END
+0
+PARAMETER_UNKNOWN
+DEF
+OPTIMIZE_FOR_SPEED
+5
+PARAMETER_UNKNOWN
+USR
+USE_CS_BUFFERS
+1
+PARAMETER_UNKNOWN
+DEF
+CARRY_CHAIN
+MANUAL
+PARAMETER_UNKNOWN
+USR
+CARRY_CHAIN_LENGTH
+48
+CARRY_CHAIN_LENGTH
+USR
+DEVICE_FAMILY
+Stratix II
+PARAMETER_UNKNOWN
+USR
+USE_WYS
+OFF
+PARAMETER_UNKNOWN
+DEF
+STYLE
+FAST
+PARAMETER_UNKNOWN
+USR
+CBXI_PARAMETER
+add_sub_elh
+PARAMETER_UNKNOWN
+USR
+AUTO_CARRY_CHAINS
+ON
+AUTO_CARRY
+USR
+IGNORE_CARRY_BUFFERS
+OFF
+IGNORE_CARRY
+USR
+AUTO_CASCADE_CHAINS
+ON
+AUTO_CASCADE
+USR
+IGNORE_CASCADE_BUFFERS
+OFF
+IGNORE_CASCADE
+USR
+}
+# used_port {
+result7
+-1
+3
+result6
+-1
+3
+result5
+-1
+3
+result4
+-1
+3
+result3
+-1
+3
+result2
+-1
+3
+result1
+-1
+3
+result0
+-1
+3
+datab7
+-1
+3
+datab6
+-1
+3
+datab5
+-1
+3
+datab4
+-1
+3
+datab3
+-1
+3
+datab2
+-1
+3
+datab1
+-1
+3
+datab0
+-1
+3
+dataa7
+-1
+3
+dataa6
+-1
+3
+dataa5
+-1
+3
+dataa4
+-1
+3
+dataa3
+-1
+3
+dataa2
+-1
+3
+dataa1
+-1
+3
+dataa0
+-1
+3
+}
+# hierarchies {
+lpm_add_sub1:inst112|lpm_add_sub:lpm_add_sub_component
+}
+# macro_sequence
+
+# end
+# entity
+add_sub_elh
+# storage
+db|micp.(99).cnf
+db|micp.(99).cnf
+# case_insensitive
+# source_file
+db|add_sub_elh.tdf
+d7f7321c3b914ebd5f3080d9f7a9e1a7
+7
+# used_port {
+result7
+-1
+3
+result6
+-1
+3
+result5
+-1
+3
+result4
+-1
+3
+result3
+-1
+3
+result2
+-1
+3
+result1
+-1
+3
+result0
+-1
+3
+datab7
+-1
+3
+datab6
+-1
+3
+datab5
+-1
+3
+datab4
+-1
+3
+datab3
+-1
+3
+datab2
+-1
+3
+datab1
+-1
+3
+datab0
+-1
+3
+dataa7
+-1
+3
+dataa6
+-1
+3
+dataa5
+-1
+3
+dataa4
+-1
+3
+dataa3
+-1
+3
+dataa2
+-1
+3
+dataa1
+-1
+3
+dataa0
+-1
+3
+}
+# hierarchies {
+lpm_add_sub1:inst112|lpm_add_sub:lpm_add_sub_component|add_sub_elh:auto_generated
+}
+# macro_sequence
+
+# end
+# entity
+lpm_counter_ip
+# storage
+db|micp.(11).cnf
+db|micp.(11).cnf
+# case_insensitive
+# source_file
+lpm_counter_ip.tdf
+c8bf487d3d308a32cbce2e7c02f7983
+7
+# used_port {
+sload
+-1
+3
+q7
+-1
+3
+q6
+-1
+3
+q5
+-1
+3
+q4
+-1
+3
+q3
+-1
+3
+q2
+-1
+3
+q1
+-1
+3
+q0
+-1
+3
+data7
+-1
+3
+data6
+-1
+3
+data5
+-1
+3
+data4
+-1
+3
+data3
+-1
+3
+data2
+-1
+3
+data1
+-1
+3
+data0
+-1
+3
+clock
+-1
+3
+}
+# include_file {
+lpm_counter.inc
+c5cfeeabc5f2ab60b3453f6abbc42b41
+}
+# hierarchies {
+lpm_counter_ip:ipo
+}
+# macro_sequence
+
+# end
+# entity
+lpm_counter
+# storage
+db|micp.(46).cnf
+db|micp.(46).cnf
+# case_insensitive
+# source_file
+|altera|quartus|libraries|megafunctions|lpm_counter.tdf
+ea80917e5f6a67b6043b433538e1f4b
+7
+# user_parameter {
+AUTO_CARRY_CHAINS
+ON
+AUTO_CARRY
+USR
+IGNORE_CARRY_BUFFERS
+OFF
+IGNORE_CARRY
+USR
+AUTO_CASCADE_CHAINS
+ON
+AUTO_CASCADE
+USR
+IGNORE_CASCADE_BUFFERS
+OFF
+IGNORE_CASCADE
+USR
+LPM_WIDTH
+8
+PARAMETER_UNKNOWN
+USR
+LPM_DIRECTION
+UP
+PARAMETER_UNKNOWN
+USR
+LPM_MODULUS
+0
+PARAMETER_UNKNOWN
+DEF
+LPM_AVALUE
+UNUSED
+PARAMETER_UNKNOWN
+DEF
+LPM_SVALUE
+UNUSED
+PARAMETER_UNKNOWN
+DEF
+LPM_PORT_UPDOWN
+PORT_UNUSED
+PARAMETER_UNKNOWN
+USR
+DEVICE_FAMILY
+Stratix II
+PARAMETER_UNKNOWN
+USR
+CARRY_CHAIN
+MANUAL
+PARAMETER_UNKNOWN
+USR
+CARRY_CHAIN_LENGTH
+48
+CARRY_CHAIN_LENGTH
+USR
+NOT_GATE_PUSH_BACK
+ON
+NOT_GATE_PUSH_BACK
+USR
+CARRY_CNT_EN
+SMART
+PARAMETER_UNKNOWN
+DEF
+LABWIDE_SCLR
+ON
+PARAMETER_UNKNOWN
+DEF
+USE_NEW_VERSION
+TRUE
+PARAMETER_UNKNOWN
+DEF
+CBXI_PARAMETER
+cntr_bli
+PARAMETER_UNKNOWN
+USR
+}
+# used_port {
+sload
+-1
+3
+q7
+-1
+3
+q6
+-1
+3
+q5
+-1
+3
+q4
+-1
+3
+q3
+-1
+3
+q2
+-1
+3
+q1
+-1
+3
+q0
+-1
+3
+data7
+-1
+3
+data6
+-1
+3
+data5
+-1
+3
+data4
+-1
+3
+data3
+-1
+3
+data2
+-1
+3
+data1
+-1
+3
+data0
+-1
+3
+clock
+-1
+3
+}
+# hierarchies {
+lpm_counter_ip:ipo|lpm_counter:lpm_counter_component
+}
+# macro_sequence
+
+# end
+# entity
+cntr_bli
+# storage
+db|micp.(100).cnf
+db|micp.(100).cnf
+# case_insensitive
+# source_file
+db|cntr_bli.tdf
+86f520aa47cc139d74d6e4248a45af5
+7
+# used_port {
+sload
+-1
+3
+q7
+-1
+3
+q6
+-1
+3
+q5
+-1
+3
+q4
+-1
+3
+q3
+-1
+3
+q2
+-1
+3
+q1
+-1
+3
+q0
+-1
+3
+data7
+-1
+3
+data6
+-1
+3
+data5
+-1
+3
+data4
+-1
+3
+data3
+-1
+3
+data2
+-1
+3
+data1
+-1
+3
+data0
+-1
+3
+clock
+-1
+3
+}
+# hierarchies {
+lpm_counter_ip:ipo|lpm_counter:lpm_counter_component|cntr_bli:auto_generated
+}
+# macro_sequence
+
+# end
+# entity
+lpm_mux5
+# storage
+db|micp.(31).cnf
+db|micp.(31).cnf
+# case_insensitive
+# source_file
+lpm_mux5.tdf
+f48c8b0b6f91734d0f2a06ee917db2
+7
+# used_port {
+sel1
+-1
+3
+sel0
+-1
+3
+result
+-1
+3
+data3
+-1
+3
+data0
+-1
+3
+data2
+-1
+1
+data1
+-1
+1
+}
+# include_file {
+lpm_mux.inc
+dd87bed9959d6126db09970164b7ba6
+}
+# hierarchies {
+lpm_mux5:inst27
+}
+# macro_sequence
+
+# end
+# entity
+altsyncram_dk91
+# storage
+db|micp.(101).cnf
+db|micp.(101).cnf
+# case_insensitive
+# source_file
+db|altsyncram_dk91.tdf
+b61e8374f0dd41b496d81284f0d43a3
+7
+# used_port {
+q_a5
+-1
+3
+q_a4
+-1
+3
+q_a3
+-1
+3
+q_a2
+-1
+3
+q_a1
+-1
+3
+q_a0
+-1
+3
+clock0
+-1
+3
+address_a7
+-1
+3
+address_a6
+-1
+3
+address_a5
+-1
+3
+address_a4
+-1
+3
+address_a3
+-1
+3
+address_a2
+-1
+3
+address_a1
+-1
+3
+address_a0
+-1
+3
+}
+# memory_file {
+rom.hex
+71b24c2cb0ef4cf0bb6ae98b29ac677
+}
+# hierarchies {
+lpm_rom_cmd:irom|altsyncram:altsyncram_component|altsyncram_dk91:auto_generated
+}
+# macro_sequence
+
+# end
+# entity
+lpm_mux5
+# storage
+db|micp.(102).cnf
+db|micp.(102).cnf
+# case_insensitive
+# source_file
+lpm_mux5.tdf
+f48c8b0b6f91734d0f2a06ee917db2
+7
+# used_port {
+sel1
+-1
+3
+sel0
+-1
+3
+result
+-1
+3
+data3
+-1
+3
+data2
+-1
+3
+data0
+-1
+3
+data1
+-1
+1
+}
+# include_file {
+lpm_mux.inc
+dd87bed9959d6126db09970164b7ba6
+}
+# hierarchies {
+lpm_mux5:inst23
+lpm_mux5:inst32
+lpm_mux5:inst31
+lpm_mux5:inst30
+}
+# macro_sequence
+
+# end
+# entity
+lpm_mux5
+# storage
+db|micp.(103).cnf
+db|micp.(103).cnf
+# case_insensitive
+# source_file
+lpm_mux5.tdf
+f48c8b0b6f91734d0f2a06ee917db2
+7
+# used_port {
+sel1
+-1
+3
+sel0
+-1
+3
+result
+-1
+3
+data3
+-1
+3
+data2
+-1
+3
+data1
+-1
+1
+data0
+-1
+1
+}
+# include_file {
+lpm_mux.inc
+dd87bed9959d6126db09970164b7ba6
+}
+# hierarchies {
+lpm_mux5:inst33
+}
+# macro_sequence
+
+# end
+# entity
+lpm_mux5
+# storage
+db|micp.(104).cnf
+db|micp.(104).cnf
+# case_insensitive
+# source_file
+lpm_mux5.tdf
+f48c8b0b6f91734d0f2a06ee917db2
+7
+# used_port {
+sel1
+-1
+3
+sel0
+-1
+3
+result
+-1
+3
+data3
+-1
+3
+data2
+-1
+1
+data1
+-1
+1
+data0
+-1
+1
+}
+# include_file {
+lpm_mux.inc
+dd87bed9959d6126db09970164b7ba6
+}
+# hierarchies {
+lpm_mux5:inst60
+}
+# macro_sequence
+
+# end
+# entity
+lpm_inv0
+# storage
+db|micp.(105).cnf
+db|micp.(105).cnf
+# case_insensitive
+# source_file
+lpm_inv0.tdf
+de54aa4490575be9fa7e4c2cc6d8
+7
+# used_port {
+result5
+-1
+3
+result4
+-1
+3
+result3
+-1
+3
+result2
+-1
+3
+result1
+-1
+3
+result0
+-1
+3
+data5
+-1
+3
+data4
+-1
+3
+data3
+-1
+3
+data2
+-1
+3
+data1
+-1
+3
+data0
+-1
+3
+}
+# include_file {
+lpm_inv.inc
+c96858d51f661573a481f12120e5219f
+}
+# hierarchies {
+lpm_inv0:inst139
+}
+# macro_sequence
+
+# end
+# entity
+lpm_inv
+# storage
+db|micp.(106).cnf
+db|micp.(106).cnf
+# case_insensitive
+# source_file
+|altera|quartus|libraries|megafunctions|lpm_inv.tdf
+bf3a15611ede64d75750a39e22c85c3f
+7
+# user_parameter {
+LPM_WIDTH
+6
+PARAMETER_UNKNOWN
+USR
+}
+# used_port {
+result5
+-1
+3
+result4
+-1
+3
+result3
+-1
+3
+result2
+-1
+3
+result1
+-1
+3
+result0
+-1
+3
+data5
+-1
+3
+data4
+-1
+3
+data3
+-1
+3
+data2
+-1
+3
+data1
+-1
+3
+data0
+-1
+3
+}
+# hierarchies {
+lpm_inv0:inst139|lpm_inv:lpm_inv_component
+}
+# macro_sequence
+
+# end
+# entity
+lpm_and0
+# storage
+db|micp.(107).cnf
+db|micp.(107).cnf
+# case_insensitive
+# source_file
+lpm_and0.tdf
+7afef0e580e972bb1680dfff1e97c0c3
+7
+# used_port {
+result5
+-1
+3
+result4
+-1
+3
+result3
+-1
+3
+result2
+-1
+3
+result1
+-1
+3
+result0
+-1
+3
+data1x5
+-1
+3
+data1x4
+-1
+3
+data1x3
+-1
+3
+data1x2
+-1
+3
+data1x1
+-1
+3
+data1x0
+-1
+3
+data0x5
+-1
+3
+data0x4
+-1
+3
+data0x3
+-1
+3
+data0x2
+-1
+3
+data0x1
+-1
+3
+data0x0
+-1
+3
+}
+# include_file {
+lpm_and.inc
+736ee09b68691a8143f713d19e2baa41
+}
+# hierarchies {
+lpm_and0:inst138
+}
+# macro_sequence
+
+# end
+# entity
+lpm_and
+# storage
+db|micp.(108).cnf
+db|micp.(108).cnf
+# case_insensitive
+# source_file
+|altera|quartus|libraries|megafunctions|lpm_and.tdf
+aef927e54c3d33d677aba1c474155a1
+7
+# user_parameter {
+AUTO_CARRY_CHAINS
+ON
+AUTO_CARRY
+USR
+IGNORE_CARRY_BUFFERS
+OFF
+IGNORE_CARRY
+USR
+AUTO_CASCADE_CHAINS
+ON
+AUTO_CASCADE
+USR
+IGNORE_CASCADE_BUFFERS
+OFF
+IGNORE_CASCADE
+USR
+LPM_WIDTH
+6
+PARAMETER_UNKNOWN
+USR
+LPM_SIZE
+2
+PARAMETER_UNKNOWN
+USR
+CARRY_CHAIN_LENGTH
+48
+CARRY_CHAIN_LENGTH
+USR
+CARRY_CHAIN
+MANUAL
+PARAMETER_UNKNOWN
+USR
+CASCADE_CHAIN
+MANUAL
+PARAMETER_UNKNOWN
+USR
+DEVICE_FAMILY
+Stratix II
+PARAMETER_UNKNOWN
+USR
+}
+# used_port {
+result5
+-1
+3
+result4
+-1
+3
+result3
+-1
+3
+result2
+-1
+3
+result1
+-1
+3
+result0
+-1
+3
+data1_5
+-1
+3
+data1_4
+-1
+3
+data1_3
+-1
+3
+data1_2
+-1
+3
+data1_1
+-1
+3
+data1_0
+-1
+3
+data0_5
+-1
+3
+data0_4
+-1
+3
+data0_3
+-1
+3
+data0_2
+-1
+3
+data0_1
+-1
+3
+data0_0
+-1
+3
+}
+# hierarchies {
+lpm_and0:inst138|lpm_and:lpm_and_component
+}
+# macro_sequence
+
+# end
+# entity
+lpm_decode1
+# storage
+db|micp.(109).cnf
+db|micp.(109).cnf
+# case_insensitive
+# source_file
+lpm_decode1.tdf
+4685f649a8c4ca08a9393c11a9c53c
+7
+# used_port {
+eq9
+-1
+3
+eq8
+-1
+3
+eq7
+-1
+3
+eq6
+-1
+3
+eq5
+-1
+3
+eq4
+-1
+3
+eq3
+-1
+3
+eq2
+-1
+3
+eq10
+-1
+3
+eq1
+-1
+3
+data7
+-1
+3
+data6
+-1
+3
+data5
+-1
+3
+data4
+-1
+3
+data3
+-1
+3
+data2
+-1
+3
+data1
+-1
+3
+data0
+-1
+3
+}
+# include_file {
+lpm_decode.inc
+10da69a8bbd590d66779e7a142f73790
+}
+# macro_sequence
+
+# end
+# entity
+lpm_dff0
+# storage
+db|micp.(110).cnf
+db|micp.(110).cnf
+# case_insensitive
+# source_file
+lpm_dff0.tdf
+aa4b89a8582c6e77c43bffd6aaac3e99
+7
+# used_port {
+q
+-1
+3
+clock
+-1
+3
+}
+# include_file {
+lpm_ff.inc
+5b1f18ec4f969a147b22e8c42bf962ac
+}
+# hierarchies {
+lpm_dff0:inst148
+}
+# macro_sequence
+
+# end
+# entity
+lpm_ff
+# storage
+db|micp.(111).cnf
+db|micp.(111).cnf
+# case_insensitive
+# source_file
+|altera|quartus|libraries|megafunctions|lpm_ff.tdf
+46b042d3fd5eb2f17a9dfd3891afd1a
+7
+# user_parameter {
+LPM_WIDTH
+1
+PARAMETER_UNKNOWN
+USR
+LPM_AVALUE
+UNUSED
+PARAMETER_UNKNOWN
+DEF
+LPM_SVALUE
+UNUSED
+PARAMETER_UNKNOWN
+DEF
+LPM_FFTYPE
+TFF
+PARAMETER_UNKNOWN
+USR
+DEVICE_FAMILY
+Stratix II
+PARAMETER_UNKNOWN
+USR
+CBXI_PARAMETER
+NOTHING
+PARAMETER_UNKNOWN
+DEF
+AUTO_CARRY_CHAINS
+ON
+AUTO_CARRY
+USR
+IGNORE_CARRY_BUFFERS
+OFF
+IGNORE_CARRY
+USR
+AUTO_CASCADE_CHAINS
+ON
+AUTO_CASCADE
+USR
+IGNORE_CASCADE_BUFFERS
+OFF
+IGNORE_CASCADE
+USR
+}
+# used_port {
+q0
+-1
+3
+clock
+-1
+3
+}
+# hierarchies {
+lpm_dff0:inst148|lpm_ff:lpm_ff_component
+}
+# macro_sequence
+
+# end
+# entity
+result
+# storage
+db|micp.(0).cnf
+db|micp.(0).cnf
+# case_insensitive
+# source_file
+result.bdf
+11a5dd6cae3ae316c92227bc51bfb0ca
+26
+# internal_option {
+BLOCK_DESIGN_NAMING
+AUTO
+}
+# hierarchies {
+|
 }
 # macro_sequence
 

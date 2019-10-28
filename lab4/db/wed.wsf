@@ -24,7 +24,7 @@ VECTOR("D:/altera/quartus/lab4/result.vwf")
 {
 	ZOOM{
 		ZBEGIN = 0;
-		ZEND = 267600;
+		ZEND = 268200;
 		NUMERATOR = 1338;
 		DENOMINATOR = 267600;
 		TOP_INDEX = 0;
@@ -38,96 +38,8 @@ VECTOR("D:/altera/quartus/lab4/result.vwf")
 		INTERVAL_TYPE = HALF_GRID;
 	}
 	LINE{
-		SIGNAL = "data55";
-		INDEX = 0;
-		FORMAT = T;
-		SCALE = 1;
-		VISIBLE = Y;
-		FLAG = N;
-	}
-	LINE{
-		SIGNAL = "data55[7]";
-		INDEX = 1;
-		FORMAT = E;
-		SCALE = 1;
-		VISIBLE = Y;
-		FLAG = N;
-	}
-	LINE{
-		SIGNAL = "data55[6]";
-		INDEX = 2;
-		FORMAT = E;
-		SCALE = 1;
-		VISIBLE = Y;
-		FLAG = N;
-	}
-	LINE{
-		SIGNAL = "data55[5]";
-		INDEX = 3;
-		FORMAT = E;
-		SCALE = 1;
-		VISIBLE = Y;
-		FLAG = N;
-	}
-	LINE{
-		SIGNAL = "data55[4]";
-		INDEX = 4;
-		FORMAT = E;
-		SCALE = 1;
-		VISIBLE = Y;
-		FLAG = N;
-	}
-	LINE{
-		SIGNAL = "data55[3]";
-		INDEX = 5;
-		FORMAT = E;
-		SCALE = 1;
-		VISIBLE = Y;
-		FLAG = N;
-	}
-	LINE{
-		SIGNAL = "data55[2]";
-		INDEX = 6;
-		FORMAT = E;
-		SCALE = 1;
-		VISIBLE = Y;
-		FLAG = N;
-	}
-	LINE{
-		SIGNAL = "data55[1]";
-		INDEX = 7;
-		FORMAT = E;
-		SCALE = 1;
-		VISIBLE = Y;
-		FLAG = N;
-	}
-	LINE{
-		SIGNAL = "data55[0]";
-		INDEX = 8;
-		FORMAT = E;
-		SCALE = 1;
-		VISIBLE = Y;
-		FLAG = N;
-	}
-	LINE{
-		SIGNAL = "aload";
-		INDEX = 9;
-		FORMAT = E;
-		SCALE = 1;
-		VISIBLE = Y;
-		FLAG = N;
-	}
-	LINE{
 		SIGNAL = "clk";
-		INDEX = 10;
-		FORMAT = E;
-		SCALE = 1;
-		VISIBLE = Y;
-		FLAG = N;
-	}
-	LINE{
-		SIGNAL = "data3";
-		INDEX = 11;
+		INDEX = 0;
 		FORMAT = E;
 		SCALE = 1;
 		VISIBLE = Y;
@@ -135,7 +47,7 @@ VECTOR("D:/altera/quartus/lab4/result.vwf")
 	}
 	LINE{
 		SIGNAL = "IR";
-		INDEX = 12;
+		INDEX = 1;
 		FORMAT = T;
 		SCALE = 1;
 		VISIBLE = Y;
@@ -143,7 +55,7 @@ VECTOR("D:/altera/quartus/lab4/result.vwf")
 	}
 	LINE{
 		SIGNAL = "IR[11]";
-		INDEX = 13;
+		INDEX = 2;
 		FORMAT = E;
 		SCALE = 1;
 		VISIBLE = Y;
@@ -151,7 +63,7 @@ VECTOR("D:/altera/quartus/lab4/result.vwf")
 	}
 	LINE{
 		SIGNAL = "IR[10]";
-		INDEX = 14;
+		INDEX = 3;
 		FORMAT = E;
 		SCALE = 1;
 		VISIBLE = Y;
@@ -159,7 +71,7 @@ VECTOR("D:/altera/quartus/lab4/result.vwf")
 	}
 	LINE{
 		SIGNAL = "IR[9]";
-		INDEX = 15;
+		INDEX = 4;
 		FORMAT = E;
 		SCALE = 1;
 		VISIBLE = Y;
@@ -167,7 +79,7 @@ VECTOR("D:/altera/quartus/lab4/result.vwf")
 	}
 	LINE{
 		SIGNAL = "IR[8]";
-		INDEX = 16;
+		INDEX = 5;
 		FORMAT = E;
 		SCALE = 1;
 		VISIBLE = Y;
@@ -175,7 +87,7 @@ VECTOR("D:/altera/quartus/lab4/result.vwf")
 	}
 	LINE{
 		SIGNAL = "IR[7]";
-		INDEX = 17;
+		INDEX = 6;
 		FORMAT = E;
 		SCALE = 1;
 		VISIBLE = Y;
@@ -183,7 +95,7 @@ VECTOR("D:/altera/quartus/lab4/result.vwf")
 	}
 	LINE{
 		SIGNAL = "IR[6]";
-		INDEX = 18;
+		INDEX = 7;
 		FORMAT = E;
 		SCALE = 1;
 		VISIBLE = Y;
@@ -191,7 +103,7 @@ VECTOR("D:/altera/quartus/lab4/result.vwf")
 	}
 	LINE{
 		SIGNAL = "IR[5]";
-		INDEX = 19;
+		INDEX = 8;
 		FORMAT = E;
 		SCALE = 1;
 		VISIBLE = Y;
@@ -199,7 +111,7 @@ VECTOR("D:/altera/quartus/lab4/result.vwf")
 	}
 	LINE{
 		SIGNAL = "IR[4]";
-		INDEX = 20;
+		INDEX = 9;
 		FORMAT = E;
 		SCALE = 1;
 		VISIBLE = Y;
@@ -207,7 +119,7 @@ VECTOR("D:/altera/quartus/lab4/result.vwf")
 	}
 	LINE{
 		SIGNAL = "IR[3]";
-		INDEX = 21;
+		INDEX = 10;
 		FORMAT = E;
 		SCALE = 1;
 		VISIBLE = Y;
@@ -215,7 +127,7 @@ VECTOR("D:/altera/quartus/lab4/result.vwf")
 	}
 	LINE{
 		SIGNAL = "IR[2]";
-		INDEX = 22;
+		INDEX = 11;
 		FORMAT = E;
 		SCALE = 1;
 		VISIBLE = Y;
@@ -223,7 +135,7 @@ VECTOR("D:/altera/quartus/lab4/result.vwf")
 	}
 	LINE{
 		SIGNAL = "IR[1]";
-		INDEX = 23;
+		INDEX = 12;
 		FORMAT = E;
 		SCALE = 1;
 		VISIBLE = Y;
@@ -231,6 +143,94 @@ VECTOR("D:/altera/quartus/lab4/result.vwf")
 	}
 	LINE{
 		SIGNAL = "IR[0]";
+		INDEX = 13;
+		FORMAT = E;
+		SCALE = 1;
+		VISIBLE = Y;
+		FLAG = N;
+	}
+	LINE{
+		SIGNAL = "ADDRESS";
+		INDEX = 14;
+		FORMAT = T;
+		SCALE = 1;
+		VISIBLE = Y;
+		FLAG = N;
+	}
+	LINE{
+		SIGNAL = "ADDRESS[7]";
+		INDEX = 15;
+		FORMAT = E;
+		SCALE = 1;
+		VISIBLE = Y;
+		FLAG = N;
+	}
+	LINE{
+		SIGNAL = "ADDRESS[6]";
+		INDEX = 16;
+		FORMAT = E;
+		SCALE = 1;
+		VISIBLE = Y;
+		FLAG = N;
+	}
+	LINE{
+		SIGNAL = "ADDRESS[5]";
+		INDEX = 17;
+		FORMAT = E;
+		SCALE = 1;
+		VISIBLE = Y;
+		FLAG = N;
+	}
+	LINE{
+		SIGNAL = "ADDRESS[4]";
+		INDEX = 18;
+		FORMAT = E;
+		SCALE = 1;
+		VISIBLE = Y;
+		FLAG = N;
+	}
+	LINE{
+		SIGNAL = "ADDRESS[3]";
+		INDEX = 19;
+		FORMAT = E;
+		SCALE = 1;
+		VISIBLE = Y;
+		FLAG = N;
+	}
+	LINE{
+		SIGNAL = "ADDRESS[2]";
+		INDEX = 20;
+		FORMAT = E;
+		SCALE = 1;
+		VISIBLE = Y;
+		FLAG = N;
+	}
+	LINE{
+		SIGNAL = "ADDRESS[1]";
+		INDEX = 21;
+		FORMAT = E;
+		SCALE = 1;
+		VISIBLE = Y;
+		FLAG = N;
+	}
+	LINE{
+		SIGNAL = "ADDRESS[0]";
+		INDEX = 22;
+		FORMAT = E;
+		SCALE = 1;
+		VISIBLE = Y;
+		FLAG = N;
+	}
+	LINE{
+		SIGNAL = "DATA";
+		INDEX = 23;
+		FORMAT = T;
+		SCALE = 1;
+		VISIBLE = Y;
+		FLAG = N;
+	}
+	LINE{
+		SIGNAL = "DATA[5]";
 		INDEX = 24;
 		FORMAT = E;
 		SCALE = 1;
@@ -238,15 +238,15 @@ VECTOR("D:/altera/quartus/lab4/result.vwf")
 		FLAG = N;
 	}
 	LINE{
-		SIGNAL = "adress";
+		SIGNAL = "DATA[4]";
 		INDEX = 25;
-		FORMAT = T;
+		FORMAT = E;
 		SCALE = 1;
 		VISIBLE = Y;
 		FLAG = N;
 	}
 	LINE{
-		SIGNAL = "adress[7]";
+		SIGNAL = "DATA[3]";
 		INDEX = 26;
 		FORMAT = E;
 		SCALE = 1;
@@ -254,7 +254,7 @@ VECTOR("D:/altera/quartus/lab4/result.vwf")
 		FLAG = N;
 	}
 	LINE{
-		SIGNAL = "adress[6]";
+		SIGNAL = "DATA[2]";
 		INDEX = 27;
 		FORMAT = E;
 		SCALE = 1;
@@ -262,7 +262,7 @@ VECTOR("D:/altera/quartus/lab4/result.vwf")
 		FLAG = N;
 	}
 	LINE{
-		SIGNAL = "adress[5]";
+		SIGNAL = "DATA[1]";
 		INDEX = 28;
 		FORMAT = E;
 		SCALE = 1;
@@ -270,7 +270,7 @@ VECTOR("D:/altera/quartus/lab4/result.vwf")
 		FLAG = N;
 	}
 	LINE{
-		SIGNAL = "adress[4]";
+		SIGNAL = "DATA[0]";
 		INDEX = 29;
 		FORMAT = E;
 		SCALE = 1;
@@ -278,15 +278,15 @@ VECTOR("D:/altera/quartus/lab4/result.vwf")
 		FLAG = N;
 	}
 	LINE{
-		SIGNAL = "adress[3]";
+		SIGNAL = "IP";
 		INDEX = 30;
-		FORMAT = E;
+		FORMAT = T;
 		SCALE = 1;
 		VISIBLE = Y;
 		FLAG = N;
 	}
 	LINE{
-		SIGNAL = "adress[2]";
+		SIGNAL = "IP[7]";
 		INDEX = 31;
 		FORMAT = E;
 		SCALE = 1;
@@ -294,7 +294,7 @@ VECTOR("D:/altera/quartus/lab4/result.vwf")
 		FLAG = N;
 	}
 	LINE{
-		SIGNAL = "adress[1]";
+		SIGNAL = "IP[6]";
 		INDEX = 32;
 		FORMAT = E;
 		SCALE = 1;
@@ -302,7 +302,7 @@ VECTOR("D:/altera/quartus/lab4/result.vwf")
 		FLAG = N;
 	}
 	LINE{
-		SIGNAL = "adress[0]";
+		SIGNAL = "IP[5]";
 		INDEX = 33;
 		FORMAT = E;
 		SCALE = 1;
@@ -310,15 +310,15 @@ VECTOR("D:/altera/quartus/lab4/result.vwf")
 		FLAG = N;
 	}
 	LINE{
-		SIGNAL = "DATA_OUTPUT";
+		SIGNAL = "IP[4]";
 		INDEX = 34;
-		FORMAT = T;
+		FORMAT = E;
 		SCALE = 1;
 		VISIBLE = Y;
 		FLAG = N;
 	}
 	LINE{
-		SIGNAL = "DATA_OUTPUT[5]";
+		SIGNAL = "IP[3]";
 		INDEX = 35;
 		FORMAT = E;
 		SCALE = 1;
@@ -326,7 +326,7 @@ VECTOR("D:/altera/quartus/lab4/result.vwf")
 		FLAG = N;
 	}
 	LINE{
-		SIGNAL = "DATA_OUTPUT[4]";
+		SIGNAL = "IP[2]";
 		INDEX = 36;
 		FORMAT = E;
 		SCALE = 1;
@@ -334,7 +334,7 @@ VECTOR("D:/altera/quartus/lab4/result.vwf")
 		FLAG = N;
 	}
 	LINE{
-		SIGNAL = "DATA_OUTPUT[3]";
+		SIGNAL = "IP[1]";
 		INDEX = 37;
 		FORMAT = E;
 		SCALE = 1;
@@ -342,7 +342,7 @@ VECTOR("D:/altera/quartus/lab4/result.vwf")
 		FLAG = N;
 	}
 	LINE{
-		SIGNAL = "DATA_OUTPUT[2]";
+		SIGNAL = "IP[0]";
 		INDEX = 38;
 		FORMAT = E;
 		SCALE = 1;
@@ -350,15 +350,15 @@ VECTOR("D:/altera/quartus/lab4/result.vwf")
 		FLAG = N;
 	}
 	LINE{
-		SIGNAL = "DATA_OUTPUT[1]";
+		SIGNAL = "AR";
 		INDEX = 39;
-		FORMAT = E;
+		FORMAT = T;
 		SCALE = 1;
 		VISIBLE = Y;
 		FLAG = N;
 	}
 	LINE{
-		SIGNAL = "DATA_OUTPUT[0]";
+		SIGNAL = "AR[7]";
 		INDEX = 40;
 		FORMAT = E;
 		SCALE = 1;
@@ -366,15 +366,15 @@ VECTOR("D:/altera/quartus/lab4/result.vwf")
 		FLAG = N;
 	}
 	LINE{
-		SIGNAL = "bx_out";
+		SIGNAL = "AR[6]";
 		INDEX = 41;
-		FORMAT = T;
+		FORMAT = E;
 		SCALE = 1;
 		VISIBLE = Y;
 		FLAG = N;
 	}
 	LINE{
-		SIGNAL = "bx_out[5]";
+		SIGNAL = "AR[5]";
 		INDEX = 42;
 		FORMAT = E;
 		SCALE = 1;
@@ -382,7 +382,7 @@ VECTOR("D:/altera/quartus/lab4/result.vwf")
 		FLAG = N;
 	}
 	LINE{
-		SIGNAL = "bx_out[4]";
+		SIGNAL = "AR[4]";
 		INDEX = 43;
 		FORMAT = E;
 		SCALE = 1;
@@ -390,7 +390,7 @@ VECTOR("D:/altera/quartus/lab4/result.vwf")
 		FLAG = N;
 	}
 	LINE{
-		SIGNAL = "bx_out[3]";
+		SIGNAL = "AR[3]";
 		INDEX = 44;
 		FORMAT = E;
 		SCALE = 1;
@@ -398,7 +398,7 @@ VECTOR("D:/altera/quartus/lab4/result.vwf")
 		FLAG = N;
 	}
 	LINE{
-		SIGNAL = "bx_out[2]";
+		SIGNAL = "AR[2]";
 		INDEX = 45;
 		FORMAT = E;
 		SCALE = 1;
@@ -406,7 +406,7 @@ VECTOR("D:/altera/quartus/lab4/result.vwf")
 		FLAG = N;
 	}
 	LINE{
-		SIGNAL = "bx_out[1]";
+		SIGNAL = "AR[1]";
 		INDEX = 46;
 		FORMAT = E;
 		SCALE = 1;
@@ -414,7 +414,7 @@ VECTOR("D:/altera/quartus/lab4/result.vwf")
 		FLAG = N;
 	}
 	LINE{
-		SIGNAL = "bx_out[0]";
+		SIGNAL = "AR[0]";
 		INDEX = 47;
 		FORMAT = E;
 		SCALE = 1;
@@ -422,7 +422,7 @@ VECTOR("D:/altera/quartus/lab4/result.vwf")
 		FLAG = N;
 	}
 	LINE{
-		SIGNAL = "FROM_IR";
+		SIGNAL = "DR";
 		INDEX = 48;
 		FORMAT = T;
 		SCALE = 1;
@@ -430,7 +430,7 @@ VECTOR("D:/altera/quartus/lab4/result.vwf")
 		FLAG = N;
 	}
 	LINE{
-		SIGNAL = "FROM_IR[7]";
+		SIGNAL = "DR[5]";
 		INDEX = 49;
 		FORMAT = E;
 		SCALE = 1;
@@ -438,7 +438,7 @@ VECTOR("D:/altera/quartus/lab4/result.vwf")
 		FLAG = N;
 	}
 	LINE{
-		SIGNAL = "FROM_IR[6]";
+		SIGNAL = "DR[4]";
 		INDEX = 50;
 		FORMAT = E;
 		SCALE = 1;
@@ -446,7 +446,7 @@ VECTOR("D:/altera/quartus/lab4/result.vwf")
 		FLAG = N;
 	}
 	LINE{
-		SIGNAL = "FROM_IR[5]";
+		SIGNAL = "DR[3]";
 		INDEX = 51;
 		FORMAT = E;
 		SCALE = 1;
@@ -454,7 +454,7 @@ VECTOR("D:/altera/quartus/lab4/result.vwf")
 		FLAG = N;
 	}
 	LINE{
-		SIGNAL = "FROM_IR[4]";
+		SIGNAL = "DR[2]";
 		INDEX = 52;
 		FORMAT = E;
 		SCALE = 1;
@@ -462,7 +462,7 @@ VECTOR("D:/altera/quartus/lab4/result.vwf")
 		FLAG = N;
 	}
 	LINE{
-		SIGNAL = "FROM_IR[3]";
+		SIGNAL = "DR[1]";
 		INDEX = 53;
 		FORMAT = E;
 		SCALE = 1;
@@ -470,7 +470,7 @@ VECTOR("D:/altera/quartus/lab4/result.vwf")
 		FLAG = N;
 	}
 	LINE{
-		SIGNAL = "FROM_IR[2]";
+		SIGNAL = "DR[0]";
 		INDEX = 54;
 		FORMAT = E;
 		SCALE = 1;
@@ -478,7 +478,7 @@ VECTOR("D:/altera/quartus/lab4/result.vwf")
 		FLAG = N;
 	}
 	LINE{
-		SIGNAL = "FROM_IR[1]";
+		SIGNAL = "DCa0";
 		INDEX = 55;
 		FORMAT = E;
 		SCALE = 1;
@@ -486,7 +486,7 @@ VECTOR("D:/altera/quartus/lab4/result.vwf")
 		FLAG = N;
 	}
 	LINE{
-		SIGNAL = "FROM_IR[0]";
+		SIGNAL = "DCa1";
 		INDEX = 56;
 		FORMAT = E;
 		SCALE = 1;
@@ -494,15 +494,15 @@ VECTOR("D:/altera/quartus/lab4/result.vwf")
 		FLAG = N;
 	}
 	LINE{
-		SIGNAL = "DAR_in22";
+		SIGNAL = "DCa2";
 		INDEX = 57;
-		FORMAT = T;
+		FORMAT = E;
 		SCALE = 1;
 		VISIBLE = Y;
 		FLAG = N;
 	}
 	LINE{
-		SIGNAL = "DAR_in22[5]";
+		SIGNAL = "DCa3";
 		INDEX = 58;
 		FORMAT = E;
 		SCALE = 1;
@@ -510,7 +510,7 @@ VECTOR("D:/altera/quartus/lab4/result.vwf")
 		FLAG = N;
 	}
 	LINE{
-		SIGNAL = "DAR_in22[4]";
+		SIGNAL = "DCa4";
 		INDEX = 59;
 		FORMAT = E;
 		SCALE = 1;
@@ -518,7 +518,7 @@ VECTOR("D:/altera/quartus/lab4/result.vwf")
 		FLAG = N;
 	}
 	LINE{
-		SIGNAL = "DAR_in22[3]";
+		SIGNAL = "DCa5";
 		INDEX = 60;
 		FORMAT = E;
 		SCALE = 1;
@@ -526,7 +526,7 @@ VECTOR("D:/altera/quartus/lab4/result.vwf")
 		FLAG = N;
 	}
 	LINE{
-		SIGNAL = "DAR_in22[2]";
+		SIGNAL = "DCa6";
 		INDEX = 61;
 		FORMAT = E;
 		SCALE = 1;
@@ -534,7 +534,7 @@ VECTOR("D:/altera/quartus/lab4/result.vwf")
 		FLAG = N;
 	}
 	LINE{
-		SIGNAL = "DAR_in22[1]";
+		SIGNAL = "DCa7";
 		INDEX = 62;
 		FORMAT = E;
 		SCALE = 1;
@@ -542,7 +542,7 @@ VECTOR("D:/altera/quartus/lab4/result.vwf")
 		FLAG = N;
 	}
 	LINE{
-		SIGNAL = "DAR_in22[0]";
+		SIGNAL = "DCa8";
 		INDEX = 63;
 		FORMAT = E;
 		SCALE = 1;
@@ -550,15 +550,15 @@ VECTOR("D:/altera/quartus/lab4/result.vwf")
 		FLAG = N;
 	}
 	LINE{
-		SIGNAL = "DR22";
+		SIGNAL = "DCa9";
 		INDEX = 64;
-		FORMAT = T;
+		FORMAT = E;
 		SCALE = 1;
 		VISIBLE = Y;
 		FLAG = N;
 	}
 	LINE{
-		SIGNAL = "DR22[5]";
+		SIGNAL = "DCa10";
 		INDEX = 65;
 		FORMAT = E;
 		SCALE = 1;
@@ -566,15 +566,15 @@ VECTOR("D:/altera/quartus/lab4/result.vwf")
 		FLAG = N;
 	}
 	LINE{
-		SIGNAL = "DR22[4]";
+		SIGNAL = "REG";
 		INDEX = 66;
-		FORMAT = E;
+		FORMAT = T;
 		SCALE = 1;
 		VISIBLE = Y;
 		FLAG = N;
 	}
 	LINE{
-		SIGNAL = "DR22[3]";
+		SIGNAL = "REG[5]";
 		INDEX = 67;
 		FORMAT = E;
 		SCALE = 1;
@@ -582,7 +582,7 @@ VECTOR("D:/altera/quartus/lab4/result.vwf")
 		FLAG = N;
 	}
 	LINE{
-		SIGNAL = "DR22[2]";
+		SIGNAL = "REG[4]";
 		INDEX = 68;
 		FORMAT = E;
 		SCALE = 1;
@@ -590,7 +590,7 @@ VECTOR("D:/altera/quartus/lab4/result.vwf")
 		FLAG = N;
 	}
 	LINE{
-		SIGNAL = "DR22[1]";
+		SIGNAL = "REG[3]";
 		INDEX = 69;
 		FORMAT = E;
 		SCALE = 1;
@@ -598,7 +598,7 @@ VECTOR("D:/altera/quartus/lab4/result.vwf")
 		FLAG = N;
 	}
 	LINE{
-		SIGNAL = "DR22[0]";
+		SIGNAL = "REG[2]";
 		INDEX = 70;
 		FORMAT = E;
 		SCALE = 1;
@@ -606,7 +606,7 @@ VECTOR("D:/altera/quartus/lab4/result.vwf")
 		FLAG = N;
 	}
 	LINE{
-		SIGNAL = "DAR-clk";
+		SIGNAL = "REG[1]";
 		INDEX = 71;
 		FORMAT = E;
 		SCALE = 1;
@@ -614,23 +614,23 @@ VECTOR("D:/altera/quartus/lab4/result.vwf")
 		FLAG = N;
 	}
 	LINE{
-		SIGNAL = "FROM_IR18";
+		SIGNAL = "REG[0]";
 		INDEX = 72;
-		FORMAT = T;
-		SCALE = 1;
-		VISIBLE = Y;
-		FLAG = N;
-	}
-	LINE{
-		SIGNAL = "FROM_IR18[7]";
-		INDEX = 73;
 		FORMAT = E;
 		SCALE = 1;
 		VISIBLE = Y;
 		FLAG = N;
 	}
 	LINE{
-		SIGNAL = "FROM_IR18[6]";
+		SIGNAL = "AX_out";
+		INDEX = 73;
+		FORMAT = T;
+		SCALE = 1;
+		VISIBLE = Y;
+		FLAG = N;
+	}
+	LINE{
+		SIGNAL = "AX_out[5]";
 		INDEX = 74;
 		FORMAT = E;
 		SCALE = 1;
@@ -638,7 +638,7 @@ VECTOR("D:/altera/quartus/lab4/result.vwf")
 		FLAG = N;
 	}
 	LINE{
-		SIGNAL = "FROM_IR18[5]";
+		SIGNAL = "AX_out[4]";
 		INDEX = 75;
 		FORMAT = E;
 		SCALE = 1;
@@ -646,7 +646,7 @@ VECTOR("D:/altera/quartus/lab4/result.vwf")
 		FLAG = N;
 	}
 	LINE{
-		SIGNAL = "FROM_IR18[4]";
+		SIGNAL = "AX_out[3]";
 		INDEX = 76;
 		FORMAT = E;
 		SCALE = 1;
@@ -654,7 +654,7 @@ VECTOR("D:/altera/quartus/lab4/result.vwf")
 		FLAG = N;
 	}
 	LINE{
-		SIGNAL = "FROM_IR18[3]";
+		SIGNAL = "AX_out[2]";
 		INDEX = 77;
 		FORMAT = E;
 		SCALE = 1;
@@ -662,7 +662,7 @@ VECTOR("D:/altera/quartus/lab4/result.vwf")
 		FLAG = N;
 	}
 	LINE{
-		SIGNAL = "FROM_IR18[2]";
+		SIGNAL = "AX_out[1]";
 		INDEX = 78;
 		FORMAT = E;
 		SCALE = 1;
@@ -670,7 +670,7 @@ VECTOR("D:/altera/quartus/lab4/result.vwf")
 		FLAG = N;
 	}
 	LINE{
-		SIGNAL = "FROM_IR18[1]";
+		SIGNAL = "AX_out[0]";
 		INDEX = 79;
 		FORMAT = E;
 		SCALE = 1;
@@ -678,23 +678,23 @@ VECTOR("D:/altera/quartus/lab4/result.vwf")
 		FLAG = N;
 	}
 	LINE{
-		SIGNAL = "FROM_IR18[0]";
+		SIGNAL = "BX_out";
 		INDEX = 80;
-		FORMAT = E;
-		SCALE = 1;
-		VISIBLE = Y;
-		FLAG = N;
-	}
-	LINE{
-		SIGNAL = "ips";
-		INDEX = 81;
 		FORMAT = T;
 		SCALE = 1;
 		VISIBLE = Y;
 		FLAG = N;
 	}
 	LINE{
-		SIGNAL = "ips[7]";
+		SIGNAL = "BX_out[5]";
+		INDEX = 81;
+		FORMAT = E;
+		SCALE = 1;
+		VISIBLE = Y;
+		FLAG = N;
+	}
+	LINE{
+		SIGNAL = "BX_out[4]";
 		INDEX = 82;
 		FORMAT = E;
 		SCALE = 1;
@@ -702,7 +702,7 @@ VECTOR("D:/altera/quartus/lab4/result.vwf")
 		FLAG = N;
 	}
 	LINE{
-		SIGNAL = "ips[6]";
+		SIGNAL = "BX_out[3]";
 		INDEX = 83;
 		FORMAT = E;
 		SCALE = 1;
@@ -710,7 +710,7 @@ VECTOR("D:/altera/quartus/lab4/result.vwf")
 		FLAG = N;
 	}
 	LINE{
-		SIGNAL = "ips[5]";
+		SIGNAL = "BX_out[2]";
 		INDEX = 84;
 		FORMAT = E;
 		SCALE = 1;
@@ -718,7 +718,7 @@ VECTOR("D:/altera/quartus/lab4/result.vwf")
 		FLAG = N;
 	}
 	LINE{
-		SIGNAL = "ips[4]";
+		SIGNAL = "BX_out[1]";
 		INDEX = 85;
 		FORMAT = E;
 		SCALE = 1;
@@ -726,7 +726,7 @@ VECTOR("D:/altera/quartus/lab4/result.vwf")
 		FLAG = N;
 	}
 	LINE{
-		SIGNAL = "ips[3]";
+		SIGNAL = "BX_out[0]";
 		INDEX = 86;
 		FORMAT = E;
 		SCALE = 1;
@@ -734,15 +734,15 @@ VECTOR("D:/altera/quartus/lab4/result.vwf")
 		FLAG = N;
 	}
 	LINE{
-		SIGNAL = "ips[2]";
+		SIGNAL = "CX_out";
 		INDEX = 87;
-		FORMAT = E;
+		FORMAT = T;
 		SCALE = 1;
 		VISIBLE = Y;
 		FLAG = N;
 	}
 	LINE{
-		SIGNAL = "ips[1]";
+		SIGNAL = "CX_out[5]";
 		INDEX = 88;
 		FORMAT = E;
 		SCALE = 1;
@@ -750,7 +750,7 @@ VECTOR("D:/altera/quartus/lab4/result.vwf")
 		FLAG = N;
 	}
 	LINE{
-		SIGNAL = "ips[0]";
+		SIGNAL = "CX_out[4]";
 		INDEX = 89;
 		FORMAT = E;
 		SCALE = 1;
@@ -758,7 +758,7 @@ VECTOR("D:/altera/quartus/lab4/result.vwf")
 		FLAG = N;
 	}
 	LINE{
-		SIGNAL = "000";
+		SIGNAL = "CX_out[3]";
 		INDEX = 90;
 		FORMAT = E;
 		SCALE = 1;
@@ -766,7 +766,7 @@ VECTOR("D:/altera/quartus/lab4/result.vwf")
 		FLAG = N;
 	}
 	LINE{
-		SIGNAL = "11";
+		SIGNAL = "CX_out[2]";
 		INDEX = 91;
 		FORMAT = E;
 		SCALE = 1;
@@ -774,7 +774,7 @@ VECTOR("D:/altera/quartus/lab4/result.vwf")
 		FLAG = N;
 	}
 	LINE{
-		SIGNAL = "2";
+		SIGNAL = "CX_out[1]";
 		INDEX = 92;
 		FORMAT = E;
 		SCALE = 1;
@@ -782,7 +782,7 @@ VECTOR("D:/altera/quartus/lab4/result.vwf")
 		FLAG = N;
 	}
 	LINE{
-		SIGNAL = "5";
+		SIGNAL = "CX_out[0]";
 		INDEX = 93;
 		FORMAT = E;
 		SCALE = 1;
@@ -790,15 +790,15 @@ VECTOR("D:/altera/quartus/lab4/result.vwf")
 		FLAG = N;
 	}
 	LINE{
-		SIGNAL = "6";
+		SIGNAL = "DX_out";
 		INDEX = 94;
-		FORMAT = E;
+		FORMAT = T;
 		SCALE = 1;
 		VISIBLE = Y;
 		FLAG = N;
 	}
 	LINE{
-		SIGNAL = "res";
+		SIGNAL = "DX_out[5]";
 		INDEX = 95;
 		FORMAT = E;
 		SCALE = 1;
@@ -806,8 +806,112 @@ VECTOR("D:/altera/quartus/lab4/result.vwf")
 		FLAG = N;
 	}
 	LINE{
-		SIGNAL = "7";
+		SIGNAL = "DX_out[4]";
 		INDEX = 96;
+		FORMAT = E;
+		SCALE = 1;
+		VISIBLE = Y;
+		FLAG = N;
+	}
+	LINE{
+		SIGNAL = "DX_out[3]";
+		INDEX = 97;
+		FORMAT = E;
+		SCALE = 1;
+		VISIBLE = Y;
+		FLAG = N;
+	}
+	LINE{
+		SIGNAL = "DX_out[2]";
+		INDEX = 98;
+		FORMAT = E;
+		SCALE = 1;
+		VISIBLE = Y;
+		FLAG = N;
+	}
+	LINE{
+		SIGNAL = "DX_out[1]";
+		INDEX = 99;
+		FORMAT = E;
+		SCALE = 1;
+		VISIBLE = Y;
+		FLAG = N;
+	}
+	LINE{
+		SIGNAL = "DX_out[0]";
+		INDEX = 100;
+		FORMAT = E;
+		SCALE = 1;
+		VISIBLE = Y;
+		FLAG = N;
+	}
+	LINE{
+		SIGNAL = "dr_contr";
+		INDEX = 101;
+		FORMAT = E;
+		SCALE = 1;
+		VISIBLE = Y;
+		FLAG = N;
+	}
+	LINE{
+		SIGNAL = "first_com_contr";
+		INDEX = 102;
+		FORMAT = E;
+		SCALE = 1;
+		VISIBLE = Y;
+		FLAG = N;
+	}
+	LINE{
+		SIGNAL = "ip_contr";
+		INDEX = 103;
+		FORMAT = E;
+		SCALE = 1;
+		VISIBLE = Y;
+		FLAG = N;
+	}
+	LINE{
+		SIGNAL = "second_com_contr";
+		INDEX = 104;
+		FORMAT = E;
+		SCALE = 1;
+		VISIBLE = Y;
+		FLAG = N;
+	}
+	LINE{
+		SIGNAL = "ar_contr";
+		INDEX = 105;
+		FORMAT = E;
+		SCALE = 1;
+		VISIBLE = Y;
+		FLAG = N;
+	}
+	LINE{
+		SIGNAL = "ram_clk";
+		INDEX = 106;
+		FORMAT = E;
+		SCALE = 1;
+		VISIBLE = Y;
+		FLAG = N;
+	}
+	LINE{
+		SIGNAL = "res";
+		INDEX = 107;
+		FORMAT = E;
+		SCALE = 1;
+		VISIBLE = Y;
+		FLAG = N;
+	}
+	LINE{
+		SIGNAL = "load";
+		INDEX = 108;
+		FORMAT = E;
+		SCALE = 1;
+		VISIBLE = Y;
+		FLAG = N;
+	}
+	LINE{
+		SIGNAL = "ip_clk";
+		INDEX = 109;
 		FORMAT = E;
 		SCALE = 1;
 		VISIBLE = Y;

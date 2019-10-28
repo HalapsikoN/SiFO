@@ -5,9 +5,9 @@ Timing Analyzer Summary
 Type           : Worst-case tco
 Slack          : N/A
 Required Time  : None
-Actual Time    : 15.621 ns
-From           : lpm_rom_cmd:irom|altsyncram:altsyncram_component|altsyncram_dk91:auto_generated|ram_block1a0~porta_address_reg7
-To             : DATA_OUTPUT[1]
+Actual Time    : 21.231 ns
+From           : lpm_dff_register:CX|lpm_ff:lpm_ff_component|dffs[5]
+To             : DATA[5]
 From Clock     : clk
 To Clock       : --
 Failed Paths   : 0
@@ -15,9 +15,9 @@ Failed Paths   : 0
 Type           : Clock Setup: 'clk'
 Slack          : N/A
 Required Time  : None
-Actual Time    : 135.72 MHz ( period = 7.368 ns )
-From           : lpm_rom_cmd:irom|altsyncram:altsyncram_component|altsyncram_dk91:auto_generated|ram_block1a0~porta_address_reg7
-To             : lpm_dff_register:inst42|lpm_ff:lpm_ff_component|dffs[4]
+Actual Time    : 76.18 MHz ( period = 13.126 ns )
+From           : lpm_dff_register:AX|lpm_ff:lpm_ff_component|dffs[2]~DUPLICATE
+To             : lpm_dff_register:inst43|lpm_ff:lpm_ff_component|dffs[2]
 From Clock     : clk
 To Clock       : clk
 Failed Paths   : 0
@@ -26,11 +26,11 @@ Type           : Clock Hold: 'clk'
 Slack          : Not operational: Clock Skew > Data Delay
 Required Time  : None
 Actual Time    : N/A
-From           : DCa:inst|lpm_counter_by_down:inst1|lpm_counter:lpm_counter_component|cntr_t3i:auto_generated|safe_q[0]
-To             : lpm_dff_register:inst43|lpm_ff:lpm_ff_component|dffs[5]
+From           : lpm_counter0:inst19|lpm_counter:lpm_counter_component|cntr_04i:auto_generated|safe_q[0]
+To             : lpm_dff_register:BX|lpm_ff:lpm_ff_component|dffs[1]
 From Clock     : clk
 To Clock       : clk
-Failed Paths   : 864
+Failed Paths   : 2934
 
 Type           : Total number of failed paths
 Slack          : 
@@ -40,7 +40,7 @@ From           :
 To             : 
 From Clock     : 
 To Clock       : 
-Failed Paths   : 864
+Failed Paths   : 2934
 
 --------------------------------------------------------------------------------------
 

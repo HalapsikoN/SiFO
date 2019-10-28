@@ -86,6 +86,12 @@ set_global_assignment -name QIP_FILE lpm_mux7.qip
 set_global_assignment -name QIP_FILE lpm_constant1.qip
 set_global_assignment -name QIP_FILE lpm_constant2.qip
 set_global_assignment -name QIP_FILE lpm_constant3.qip
+set_global_assignment -name QIP_FILE lpm_add_sub0.qip
+set_global_assignment -name SIMULATOR_GENERATE_POWERPLAY_VCD_FILE OFF
+set_global_assignment -name QIP_FILE lpm_add_sub1.qip
+set_global_assignment -name QIP_FILE lpm_and0.qip
+set_global_assignment -name QIP_FILE lpm_inv0.qip
+set_global_assignment -name QIP_FILE lpm_dff0.qip
 set_global_assignment -name PARTITION_NETLIST_TYPE SOURCE -section_id Top
 set_global_assignment -name PARTITION_COLOR 16764057 -section_id Top
 set_global_assignment -name LL_ROOT_REGION ON -section_id "Root Region"
