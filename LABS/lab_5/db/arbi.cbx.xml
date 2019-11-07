@@ -1,0 +1,14 @@
+<?xml version="1.0" ?>
+<LOG_ROOT>
+	<PROJECT NAME="arbi">
+		<CBX_INST_ENTRY INSTANCE_NAME="|slave|delay:inst15|lpm_counter0:inst|lpm_counter:lpm_counter_component" CBX_FILE_NAME="cntr_s3i.tdf"/>
+		<CBX_INST_ENTRY INSTANCE_NAME="|slave|delay:inst19|lpm_counter0:inst|lpm_counter:lpm_counter_component" CBX_FILE_NAME="cntr_s3i.tdf"/>
+		<CBX_INST_ENTRY INSTANCE_NAME="|slave|delay:inst21|lpm_compare0:inst2|lpm_compare:lpm_compare_component" CBX_FILE_NAME="cmpr_dig.tdf"/>
+		<CBX_INST_ENTRY INSTANCE_NAME="|slave|lpm_constant3:inst31|lpm_constant:lpm_constant_component" CBX_FILE_NAME="lpm_constant_7e6.tdf"/>
+		<CBX_INST_ENTRY INSTANCE_NAME="|slave|delay:inst15|lpm_compare0:inst2|lpm_compare:lpm_compare_component" CBX_FILE_NAME="cmpr_dig.tdf"/>
+		<CBX_INST_ENTRY INSTANCE_NAME="|slave|delay:inst19|lpm_compare0:inst2|lpm_compare:lpm_compare_component" CBX_FILE_NAME="cmpr_dig.tdf"/>
+		<CBX_INST_ENTRY INSTANCE_NAME="|slave|delay:inst21|lpm_counter0:inst|lpm_counter:lpm_counter_component" CBX_FILE_NAME="cntr_s3i.tdf"/>
+		<CBX_INST_ENTRY INSTANCE_NAME="|slave|lpm_constant3:inst29|lpm_constant:lpm_constant_component" CBX_FILE_NAME="lpm_constant_7e6.tdf"/>
+		<CBX_INST_ENTRY INSTANCE_NAME="|slave|lpm_constant3:inst33|lpm_constant:lpm_constant_component" CBX_FILE_NAME="lpm_constant_7e6.tdf"/>
+	</PROJECT>
+</LOG_ROOT>
