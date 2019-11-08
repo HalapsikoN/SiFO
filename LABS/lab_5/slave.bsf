@@ -20,9 +20,9 @@ applicable agreement for further details.
 */
 (header "symbol" (version "1.1"))
 (symbol
-	(rect 16 16 208 112)
+	(rect 16 16 208 144)
 	(text "slave" (rect 5 0 35 14)(font "Arial" (font_size 8)))
-	(text "inst" (rect 8 80 25 92)(font "Arial" ))
+	(text "inst" (rect 8 112 25 124)(font "Arial" ))
 	(port
 		(pt 0 32)
 		(input)
@@ -45,6 +45,13 @@ applicable agreement for further details.
 		(line (pt 0 64)(pt 16 64)(line_width 3))
 	)
 	(port
+		(pt 0 80)
+		(input)
+		(text "enable" (rect 0 0 37 14)(font "Arial" (font_size 8)))
+		(text "enable" (rect 21 75 58 89)(font "Arial" (font_size 8)))
+		(line (pt 0 80)(pt 16 80)(line_width 1))
+	)
+	(port
 		(pt 192 32)
 		(output)
 		(text "OUTPUT[3..0]" (rect 0 0 75 14)(font "Arial" (font_size 8)))
@@ -59,6 +66,6 @@ applicable agreement for further details.
 		(line (pt 192 48)(pt 176 48)(line_width 1))
 	)
 	(drawing
-		(rectangle (rect 16 16 176 80)(line_width 1))
+		(rectangle (rect 16 16 176 112)(line_width 1))
 	)
 )
