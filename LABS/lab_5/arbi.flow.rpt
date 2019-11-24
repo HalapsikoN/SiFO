@@ -1,5 +1,5 @@
 Flow report for arbi
-Fri Nov 08 23:08:20 2019
+Sun Nov 24 19:50:22 2019
 Quartus II Version 9.1 Build 222 10/21/2009 SJ Web Edition
 
 
@@ -38,7 +38,7 @@ applicable agreement for further details.
 +-------------------------------------------------------------------------+
 ; Flow Summary                                                            ;
 +-------------------------------+-----------------------------------------+
-; Flow Status                   ; Successful - Fri Nov 08 23:08:20 2019   ;
+; Flow Status                   ; Successful - Sun Nov 24 19:50:22 2019   ;
 ; Quartus II Version            ; 9.1 Build 222 10/21/2009 SJ Web Edition ;
 ; Revision Name                 ; arbi                                    ;
 ; Top-level Entity Name         ; result2                                 ;
@@ -64,7 +64,7 @@ applicable agreement for further details.
 +-------------------+---------------------+
 ; Option            ; Setting             ;
 +-------------------+---------------------+
-; Start date & time ; 11/08/2019 23:08:10 ;
+; Start date & time ; 11/24/2019 19:50:10 ;
 ; Main task         ; Compilation         ;
 ; Revision Name     ; arbi                ;
 +-------------------+---------------------+
@@ -75,7 +75,7 @@ applicable agreement for further details.
 +------------------------------------+--------------------------------+---------------+-------------+----------------+
 ; Assignment Name                    ; Value                          ; Default Value ; Entity Name ; Section Id     ;
 +------------------------------------+--------------------------------+---------------+-------------+----------------+
-; COMPILER_SIGNATURE_ID              ; 93328261012165.157324369003544 ; --            ; --          ; --             ;
+; COMPILER_SIGNATURE_ID              ; 93328261012165.157461421006040 ; --            ; --          ; --             ;
 ; IP_TOOL_NAME                       ; LPM_FF                         ; --            ; --          ; --             ;
 ; IP_TOOL_NAME                       ; LPM_FF                         ; --            ; --          ; --             ;
 ; IP_TOOL_NAME                       ; LPM_MUX                        ; --            ; --          ; --             ;
@@ -110,6 +110,8 @@ applicable agreement for further details.
 ; IP_TOOL_NAME                       ; LPM_DECODE                     ; --            ; --          ; --             ;
 ; IP_TOOL_NAME                       ; LPM_CONSTANT                   ; --            ; --          ; --             ;
 ; IP_TOOL_NAME                       ; LPM_FF                         ; --            ; --          ; --             ;
+; IP_TOOL_NAME                       ; LPM_MUX                        ; --            ; --          ; --             ;
+; IP_TOOL_VERSION                    ; 9.1                            ; --            ; --          ; --             ;
 ; IP_TOOL_VERSION                    ; 9.1                            ; --            ; --          ; --             ;
 ; IP_TOOL_VERSION                    ; 9.1                            ; --            ; --          ; --             ;
 ; IP_TOOL_VERSION                    ; 9.1                            ; --            ; --          ; --             ;
@@ -246,6 +248,9 @@ applicable agreement for further details.
 ; MISC_FILE                          ; lpm_dff3.tdf                   ; --            ; --          ; --             ;
 ; MISC_FILE                          ; lpm_dff3.bsf                   ; --            ; --          ; --             ;
 ; MISC_FILE                          ; lpm_dff3.inc                   ; --            ; --          ; --             ;
+; MISC_FILE                          ; ../lab_6_7/lpm_mux1.tdf        ; --            ; --          ; --             ;
+; MISC_FILE                          ; ../lab_6_7/lpm_mux1.bsf        ; --            ; --          ; --             ;
+; MISC_FILE                          ; ../lab_6_7/lpm_mux1.inc        ; --            ; --          ; --             ;
 ; PARTITION_COLOR                    ; 16764057                       ; --            ; result2     ; Top            ;
 ; PARTITION_NETLIST_TYPE             ; SOURCE                         ; --            ; result2     ; Top            ;
 ; TOP_LEVEL_ENTITY                   ; result2                        ; arbi          ; --          ; --             ;
@@ -258,11 +263,11 @@ applicable agreement for further details.
 +-------------------------+--------------+-------------------------+---------------------+------------------------------------+
 ; Module Name             ; Elapsed Time ; Average Processors Used ; Peak Virtual Memory ; Total CPU Time (on all processors) ;
 +-------------------------+--------------+-------------------------+---------------------+------------------------------------+
-; Analysis & Synthesis    ; 00:00:02     ; 1.0                     ; 244 MB              ; 00:00:03                           ;
-; Fitter                  ; 00:00:03     ; 1.0                     ; 293 MB              ; 00:00:04                           ;
-; Assembler               ; 00:00:01     ; 1.0                     ; 251 MB              ; 00:00:01                           ;
-; Classic Timing Analyzer ; 00:00:00     ; 1.0                     ; 182 MB              ; 00:00:00                           ;
-; Total                   ; 00:00:06     ; --                      ; --                  ; 00:00:08                           ;
+; Analysis & Synthesis    ; 00:00:04     ; 1.0                     ; 241 MB              ; 00:00:03                           ;
+; Fitter                  ; 00:00:03     ; 1.0                     ; 294 MB              ; 00:00:03                           ;
+; Assembler               ; 00:00:01     ; 1.0                     ; 252 MB              ; 00:00:01                           ;
+; Classic Timing Analyzer ; 00:00:00     ; 1.0                     ; 183 MB              ; 00:00:00                           ;
+; Total                   ; 00:00:08     ; --                      ; --                  ; 00:00:07                           ;
 +-------------------------+--------------+-------------------------+---------------------+------------------------------------+
 
 

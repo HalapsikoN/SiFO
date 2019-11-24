@@ -469,13 +469,13 @@ VECTOR("D:/altera/quartus/LABS/lab_5/result.vwf")
 	}
 }
 
-VECTOR("D:/altera/quartus/LABS/lab_5/result2.vwf")
+VECTOR("d:/altera/quartus/LABS/lab_5/result2.vwf")
 {
 	ZOOM{
-		ZBEGIN = 0;
-		ZEND = 494147;
-		NUMERATOR = 1351;
-		DENOMINATOR = 494147;
+		ZBEGIN = 780001;
+		ZEND = 1280000;
+		NUMERATOR = 1367;
+		DENOMINATOR = 499999;
 		TOP_INDEX = 0;
 	}
 	CLOCK{

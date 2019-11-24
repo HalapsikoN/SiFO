@@ -913,8 +913,8 @@ applicable agreement for further details.
 )
 (symbol
 	(rect 88 232 168 312)
-	(text "lpm_mux0" (rect 10 2 80 18)(font "Arial" (font_size 10)))
-	(text "inst19" (rect 8 64 37 76)(font "Arial" ))
+	(text "lpm_mux1" (rect 10 2 80 18)(font "Arial" (font_size 10)))
+	(text "inst17" (rect 8 64 37 76)(font "Arial" ))
 	(port
 		(pt 0 40)
 		(input)

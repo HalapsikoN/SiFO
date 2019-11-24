@@ -1878,9 +1878,9 @@ applicable agreement for further details.
 	(pt 584 80)
 )
 (connector
-	(text "1" (rect 1582 296 1587 308)(font "Arial" ))
-	(pt 1576 312)
-	(pt 1648 312)
+	(text "MAS_ST" (rect 513 480 554 492)(font "Arial" ))
+	(pt 504 496)
+	(pt 576 496)
 )
 (connector
 	(text "1" (rect 1604 504 1609 516)(font "Arial" ))
@@ -1888,9 +1888,9 @@ applicable agreement for further details.
 	(pt 1670 520)
 )
 (connector
-	(text "MAS_ST" (rect 513 480 554 492)(font "Arial" ))
-	(pt 504 496)
-	(pt 576 496)
+	(text "1" (rect 1582 296 1587 308)(font "Arial" ))
+	(pt 1576 312)
+	(pt 1648 312)
 )
 (junction (pt 928 304))
 (junction (pt 1904 224))
