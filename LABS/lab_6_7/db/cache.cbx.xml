@@ -2,15 +2,18 @@
 <LOG_ROOT>
 	<PROJECT NAME="cache">
 		<CBX_INST_ENTRY INSTANCE_NAME="|result|DCa:inst11|lpm_decode_up:inst3|lpm_decode:lpm_decode_component" CBX_FILE_NAME="decode_d9f.tdf"/>
+		<CBX_INST_ENTRY INSTANCE_NAME="|result|DCa:inst12|lpm_counter_by_down:inst1|lpm_counter:lpm_counter_component" CBX_FILE_NAME="cntr_t3i.tdf"/>
 		<CBX_INST_ENTRY INSTANCE_NAME="|result|isMAXtheLargest:inst61|lpm_compare_use:inst|lpm_compare:lpm_compare_component" CBX_FILE_NAME="cmpr_mlg.tdf"/>
 		<CBX_INST_ENTRY INSTANCE_NAME="|result|lpm_compare0_isTag:inst23|lpm_compare:lpm_compare_component" CBX_FILE_NAME="cmpr_big.tdf"/>
 		<CBX_INST_ENTRY INSTANCE_NAME="|result|string:string1|lpm_counter0:inst66|lpm_counter:lpm_counter_component" CBX_FILE_NAME="cntr_t3i.tdf"/>
 		<CBX_INST_ENTRY INSTANCE_NAME="|result|string:string1|lpm_mux0:inst68|lpm_mux:lpm_mux_component" CBX_FILE_NAME="mux_npc.tdf"/>
 		<CBX_INST_ENTRY INSTANCE_NAME="|result|string:string4|lpm_decode0:inst67|lpm_decode:lpm_decode_component" CBX_FILE_NAME="decode_d9f.tdf"/>
 		<CBX_INST_ENTRY INSTANCE_NAME="|result|DCa:inst11|lpm_decode_up:inst4|lpm_decode:lpm_decode_component" CBX_FILE_NAME="decode_d9f.tdf"/>
+		<CBX_INST_ENTRY INSTANCE_NAME="|result|DCa:inst12|lpm_decode_up:inst3|lpm_decode:lpm_decode_component" CBX_FILE_NAME="decode_d9f.tdf"/>
 		<CBX_INST_ENTRY INSTANCE_NAME="|result|isMAXtheLargest:inst62|lpm_compare_use:inst|lpm_compare:lpm_compare_component" CBX_FILE_NAME="cmpr_mlg.tdf"/>
 		<CBX_INST_ENTRY INSTANCE_NAME="|result|string:string2|lpm_counter0:inst66|lpm_counter:lpm_counter_component" CBX_FILE_NAME="cntr_t3i.tdf"/>
 		<CBX_INST_ENTRY INSTANCE_NAME="|result|string:string2|lpm_mux0:inst68|lpm_mux:lpm_mux_component" CBX_FILE_NAME="mux_npc.tdf"/>
+		<CBX_INST_ENTRY INSTANCE_NAME="|result|DCa:inst12|lpm_decode_up:inst4|lpm_decode:lpm_decode_component" CBX_FILE_NAME="decode_d9f.tdf"/>
 		<CBX_INST_ENTRY INSTANCE_NAME="|result|isMAXtheLargest:inst60|lpm_compare_use:inst3|lpm_compare:lpm_compare_component" CBX_FILE_NAME="cmpr_mlg.tdf"/>
 		<CBX_INST_ENTRY INSTANCE_NAME="|result|isMAXtheLargest:inst63|lpm_compare_use:inst|lpm_compare:lpm_compare_component" CBX_FILE_NAME="cmpr_mlg.tdf"/>
 		<CBX_INST_ENTRY INSTANCE_NAME="|result|lpm_compare0_isTag:inst25|lpm_compare:lpm_compare_component" CBX_FILE_NAME="cmpr_big.tdf"/>
@@ -25,18 +28,17 @@
 		<CBX_INST_ENTRY INSTANCE_NAME="|result|isMAXtheLargest:inst62|lpm_compare_use:inst3|lpm_compare:lpm_compare_component" CBX_FILE_NAME="cmpr_mlg.tdf"/>
 		<CBX_INST_ENTRY INSTANCE_NAME="|result|lpm_counter2:inst102|lpm_counter:lpm_counter_component" CBX_FILE_NAME="cntr_t3i.tdf"/>
 		<CBX_INST_ENTRY INSTANCE_NAME="|result|lpm_decode_toWrite:inst93|lpm_decode:lpm_decode_component" CBX_FILE_NAME="decode_p7f.tdf"/>
+		<CBX_INST_ENTRY INSTANCE_NAME="|result|lpm_decode_up:inst50|lpm_decode:lpm_decode_component" CBX_FILE_NAME="decode_d9f.tdf"/>
 		<CBX_INST_ENTRY INSTANCE_NAME="|result|lpm_mux1:inst51|lpm_mux:lpm_mux_component" CBX_FILE_NAME="mux_nnc.tdf"/>
 		<CBX_INST_ENTRY INSTANCE_NAME="|result|isMAXtheLargest:inst62|lpm_compare_use:inst4|lpm_compare:lpm_compare_component" CBX_FILE_NAME="cmpr_mlg.tdf"/>
 		<CBX_INST_ENTRY INSTANCE_NAME="|result|isMAXtheLargest:inst63|lpm_compare_use:inst3|lpm_compare:lpm_compare_component" CBX_FILE_NAME="cmpr_mlg.tdf"/>
 		<CBX_INST_ENTRY INSTANCE_NAME="|result|lpm_compare0_isTag:inst19|lpm_compare:lpm_compare_component" CBX_FILE_NAME="cmpr_big.tdf"/>
 		<CBX_INST_ENTRY INSTANCE_NAME="|result|lpm_decode_up:inst42|lpm_decode:lpm_decode_component" CBX_FILE_NAME="decode_d9f.tdf"/>
-		<CBX_INST_ENTRY INSTANCE_NAME="|result|string:string1|lpm_decode0:inst67|lpm_decode:lpm_decode_component" CBX_FILE_NAME="decode_d9f.tdf"/>
 		<CBX_INST_ENTRY INSTANCE_NAME="|result|DCa:inst11|lpm_mux1:inst19|lpm_mux:lpm_mux_component" CBX_FILE_NAME="mux_nnc.tdf"/>
 		<CBX_INST_ENTRY INSTANCE_NAME="|result|isMAXtheLargest:inst63|lpm_compare_use:inst4|lpm_compare:lpm_compare_component" CBX_FILE_NAME="cmpr_mlg.tdf"/>
-		<CBX_INST_ENTRY INSTANCE_NAME="|result|lpm_compare0_isTag:inst21|lpm_compare:lpm_compare_component" CBX_FILE_NAME="cmpr_big.tdf"/>
 		<CBX_INST_ENTRY INSTANCE_NAME="|result|lpm_constant0:inst36|lpm_constant:lpm_constant_component" CBX_FILE_NAME="lpm_constant_4e6.tdf"/>
-		<CBX_INST_ENTRY INSTANCE_NAME="|result|string:string2|lpm_decode0:inst67|lpm_decode:lpm_decode_component" CBX_FILE_NAME="decode_d9f.tdf"/>
 		<CBX_INST_ENTRY INSTANCE_NAME="|result|DCa:inst11|lpm_counter_by_down:inst1|lpm_counter:lpm_counter_component" CBX_FILE_NAME="cntr_t3i.tdf"/>
+		<CBX_INST_ENTRY INSTANCE_NAME="|result|DCa:inst12|lpm_mux1:inst19|lpm_mux:lpm_mux_component" CBX_FILE_NAME="mux_nnc.tdf"/>
 		<CBX_INST_ENTRY INSTANCE_NAME="|result|isMAXtheLargest:inst60|lpm_compare_use:inst|lpm_compare:lpm_compare_component" CBX_FILE_NAME="cmpr_mlg.tdf"/>
 		<CBX_INST_ENTRY INSTANCE_NAME="|result|lpm_constant1:inst45|lpm_constant:lpm_constant_component" CBX_FILE_NAME="lpm_constant_5e6.tdf"/>
 		<CBX_INST_ENTRY INSTANCE_NAME="|result|lpm_mux1:inst100|lpm_mux:lpm_mux_component" CBX_FILE_NAME="mux_nnc.tdf"/>
@@ -50,6 +52,11 @@
 		<CBX_INST_ENTRY INSTANCE_NAME="|result|lpm_constant3:inst47|lpm_constant:lpm_constant_component" CBX_FILE_NAME="lpm_constant_7e6.tdf"/>
 		<CBX_INST_ENTRY INSTANCE_NAME="|result|lpm_mux1:inst49|lpm_mux:lpm_mux_component" CBX_FILE_NAME="mux_nnc.tdf"/>
 		<CBX_INST_ENTRY INSTANCE_NAME="|result|string:string4|lpm_counter_use:inst71|lpm_counter:lpm_counter_component" CBX_FILE_NAME="cntr_04i.tdf"/>
+		<CBX_INST_ENTRY INSTANCE_NAME="|result|DCa:inst12|lpm_counter_by_up:inst|lpm_counter:lpm_counter_component" CBX_FILE_NAME="cntr_t3i.tdf"/>
 		<CBX_INST_ENTRY INSTANCE_NAME="|result|lpm_counter1:inst39|lpm_counter:lpm_counter_component" CBX_FILE_NAME="cntr_t3i.tdf"/>
+		<CBX_INST_ENTRY INSTANCE_NAME="|result|lpm_counter1:inst48|lpm_counter:lpm_counter_component" CBX_FILE_NAME="cntr_t3i.tdf"/>
+		<CBX_INST_ENTRY INSTANCE_NAME="|result|string:string1|lpm_decode0:inst67|lpm_decode:lpm_decode_component" CBX_FILE_NAME="decode_d9f.tdf"/>
+		<CBX_INST_ENTRY INSTANCE_NAME="|result|lpm_compare0_isTag:inst21|lpm_compare:lpm_compare_component" CBX_FILE_NAME="cmpr_big.tdf"/>
+		<CBX_INST_ENTRY INSTANCE_NAME="|result|string:string2|lpm_decode0:inst67|lpm_decode:lpm_decode_component" CBX_FILE_NAME="decode_d9f.tdf"/>
 	</PROJECT>
 </LOG_ROOT>
