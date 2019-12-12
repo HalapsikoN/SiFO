@@ -984,10 +984,10 @@ VECTOR("D:/altera/quartus/LABS/lab_6_7/string.vwf")
 VECTOR("D:/altera/quartus/LABS/lab_6_7/result.vwf")
 {
 	ZOOM{
-		ZBEGIN = 4638800;
-		ZEND = 5185600;
+		ZBEGIN = 3833200;
+		ZEND = 4926800;
 		NUMERATOR = 1367;
-		DENOMINATOR = 546800;
+		DENOMINATOR = 1093600;
 		TOP_INDEX = 0;
 	}
 	CLOCK{

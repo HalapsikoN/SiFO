@@ -1,5 +1,5 @@
 Classic Timing Analyzer report for cache
-Fri Dec 06 20:49:13 2019
+Thu Dec 12 11:46:10 2019
 Quartus II Version 9.1 Build 222 10/21/2009 SJ Web Edition
 
 
@@ -1148,7 +1148,7 @@ Parallel compilation was disabled, but you have multiple processors available. E
 Info: *******************************************************************
 Info: Running Quartus II Classic Timing Analyzer
     Info: Version 9.1 Build 222 10/21/2009 SJ Web Edition
-    Info: Processing started: Fri Dec 06 20:49:13 2019
+    Info: Processing started: Thu Dec 12 11:46:09 2019
 Info: Command: quartus_tan --read_settings_files=off --write_settings_files=off cache -c cache --timing_analysis_only
 Warning: Found pins functioning as undefined clocks and/or memory enables
     Info: Assuming node "clk" is an undefined clock
@@ -1593,7 +1593,7 @@ Info: th for register "lpm_dff_addressSaver:inst127|lpm_ff:lpm_ff_component|dffs
         Info: Total interconnect delay = 3.865 ns ( 76.72 % )
 Info: Quartus II Classic Timing Analyzer was successful. 0 errors, 5 warnings
     Info: Peak virtual memory: 202 megabytes
-    Info: Processing ended: Fri Dec 06 20:49:14 2019
+    Info: Processing ended: Thu Dec 12 11:46:10 2019
     Info: Elapsed time: 00:00:01
     Info: Total CPU time (on all processors): 00:00:01
 

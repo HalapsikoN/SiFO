@@ -1,0 +1,15 @@
+Analysis & Synthesis Status : Successful - Thu Dec 12 22:43:28 2019
+Quartus II Version : 9.1 Build 222 10/21/2009 SJ Web Edition
+Revision Name : predict
+Top-level Entity Name : result
+Family : Stratix II
+Logic utilization : N/A
+    Combinational ALUTs : 49
+    Dedicated logic registers : 50
+Total registers : 50
+Total pins : 46
+Total virtual pins : 0
+Total block memory bits : 0
+DSP block 9-bit elements : 0
+Total PLLs : 0
+Total DLLs : 0

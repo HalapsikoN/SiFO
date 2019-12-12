@@ -1,5 +1,5 @@
 Simulator report for cache
-Fri Dec 06 20:55:23 2019
+Thu Dec 12 11:47:49 2019
 Quartus II Version 9.1 Build 222 10/21/2009 SJ Web Edition
 
 
@@ -4926,7 +4926,7 @@ The following table displays output ports that do not toggle to 0 during simulat
 Info: *******************************************************************
 Info: Running Quartus II Simulator
     Info: Version 9.1 Build 222 10/21/2009 SJ Web Edition
-    Info: Processing started: Fri Dec 06 20:55:22 2019
+    Info: Processing started: Thu Dec 12 11:47:48 2019
 Info: Command: quartus_sim --read_settings_files=on --write_settings_files=off cache -c cache
 Info: Using vector source file "D:/altera/quartus/LABS/lab_6_7/result.vwf"
 Info: Overwriting simulation input file with simulation results
@@ -4952,7 +4952,7 @@ Info: Number of transitions in simulation is 92369
 Info: Vector file result.vwf is saved in VWF text format. You can compress it into CVWF format in order to reduce file size. For more details please refer to the Quartus II Help.
 Info: Quartus II Simulator was successful. 0 errors, 13 warnings
     Info: Peak virtual memory: 171 megabytes
-    Info: Processing ended: Fri Dec 06 20:55:23 2019
+    Info: Processing ended: Thu Dec 12 11:47:49 2019
     Info: Elapsed time: 00:00:01
     Info: Total CPU time (on all processors): 00:00:01
 
